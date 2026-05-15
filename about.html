@@ -1,0 +1,1299 @@
+<!---DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="About RAM RAGHVENDRA & ASSOCIATES - Advocate Ram Raghvendra Kumar - 18+ Years Experience | Supreme Court of India | Delhi District Courts">
+    <meta name="keywords" content="About RAM RAGHVENDRA & ASSOCIATES, Advocate Ram Raghvendra Kumar, Lawyer Profile, Delhi Advocate">
+    <meta name="author" content="RAM RAGHVENDRA & ASSOCIATES">
+    <title>About Us | RAM RAGHVENDRA & ASSOCIATES | Adv. Ram Raghvendra Kumar</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #ffffff;
+            color: #1a2a3a;
+            overflow-x: hidden;
+        }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f0e6de; }
+        ::-webkit-scrollbar-thumb { background: #8b3c1c; border-radius: 10px; }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        .top-bar {
+            background: #0f1e28;
+            color: #e8d9cc;
+            padding: 12px 0;
+            font-size: 0.85rem;
+            position: relative;
+            z-index: 1001;
+        }
+        .top-bar-flex {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .top-bar-left span, .top-bar-right span {
+            margin-right: 28px;
+        }
+        .top-bar-left i, .top-bar-right i {
+            margin-right: 8px;
+            color: #c47a44;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: #ffffff;
+            box-shadow: 0 8px 35px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 15px 0;
+        }
+        .nav-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo-img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border: 2px solid #7a3617;
+            background: #f5ebe1;
+        }
+        .logo-text h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #7a3617;
+        }
+        .logo-text p {
+            font-size: 0.6rem;
+            color: #6a7c8a;
+            font-weight: 600;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 35px;
+            list-style: none;
+        }
+        .nav-links a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #2c3e4e;
+            transition: 0.3s;
+            font-size: 0.9rem;
+        }
+        .nav-links a:hover {
+            color: #b45a2b;
+        }
+        .nav-btn {
+            background: #7a3617;
+            color: white !important;
+            padding: 10px 28px;
+            border-radius: 50px;
+        }
+        .active-page {
+            color: #7a3617 !important;
+            border-bottom: 2px solid #c47a44;
+        }
+
+        .hamburger {
+            display: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: #7a3617;
+            background: none;
+            border: none;
+        }
+
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: #0f1e28;
+            z-index: 2000;
+            padding: 80px 30px;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .mobile-nav.active {
+            display: flex;
+        }
+        .mobile-nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: 600;
+            padding: 12px 0;
+            border-bottom: 1px solid #2a4a5a;
+        }
+        .mobile-nav .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 32px;
+            color: white;
+            cursor: pointer;
+        }
+        .mobile-nav .mobile-nav-btn {
+            background: #7a3617;
+            display: inline-block;
+            text-align: center;
+            padding: 12px;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+
+      
+        .page-header {
+            background: linear-gradient(125deg, #fdf8f2 0%, #f5ebe1 100%);
+            padding: 60px 0;
+            text-align: center;
+        }
+        .page-header h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: #1e2f3c;
+        }
+        .page-header p {
+            color: #6a7c8a;
+            margin-top: 15px;
+            font-size: 1.1rem;
+        }
+
+    
+        .about-content {
+            padding: 70px 0;
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+        .about-text h2 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.2rem;
+            color: #1e2f3c;
+            margin-bottom: 25px;
+        }
+        .about-text p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #4a6272;
+        }
+        .about-image {
+            background: linear-gradient(135deg, #fdf9f5, #faf3ea);
+            border-radius: 30px;
+            padding: 40px;
+            text-align: center;
+        }
+        .about-image i {
+            font-size: 6rem;
+            color: #7a3617;
+            margin-bottom: 20px;
+        }
+        .about-image h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+      
+        .mission-vision {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 35px;
+            margin: 60px 0;
+        }
+        .mv-card {
+            background: white;
+            padding: 35px;
+            border-radius: 25px;
+            text-align: center;
+            border: 1px solid #eee5dd;
+            transition: 0.3s;
+        }
+        .mv-card:hover {
+            transform: translateY(-8px);
+            border-color: #c47a44;
+        }
+        .mv-card i {
+            font-size: 2.5rem;
+            color: #7a3617;
+            margin-bottom: 20px;
+        }
+        .mv-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+        .mv-card p {
+            color: #6a7c8a;
+            line-height: 1.6;
+        }
+
+        /* Timeline */
+        .timeline-section {
+            background: linear-gradient(135deg, #fdf9f5 0%, #faf3ea 100%);
+            border-radius: 50px;
+            padding: 60px;
+            margin: 50px 0;
+        }
+        .timeline-title {
+            text-align: center;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.2rem;
+            margin-bottom: 45px;
+        }
+        .timeline-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+        .timeline-item {
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            position: relative;
+            border-left: 4px solid #c47a44;
+        }
+        .timeline-year {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #7a3617;
+            margin-bottom: 10px;
+        }
+        .timeline-title-sm {
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+    
+        .stats-about {
+            background: #0f1e28;
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+            border-radius: 30px;
+            margin: 50px 0;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+        }
+        .stat-about h2 {
+            font-size: 2.8rem;
+            color: #c47a44;
+        }
+
+        /* Core Values */
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            margin: 50px 0;
+        }
+        .value-card {
+            text-align: center;
+            padding: 25px;
+            background: #fdf9f5;
+            border-radius: 20px;
+        }
+        .value-card i {
+            font-size: 2rem;
+            color: #7a3617;
+            margin-bottom: 15px;
+        }
+
+   
+        .contact-cta {
+            background: #7a3617;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            border-radius: 30px;
+            margin: 50px 0;
+        }
+        .contact-cta h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        .contact-cta .cta-btn {
+            background: white;
+            color: #7a3617;
+            padding: 14px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        footer {
+            background: #09131a;
+            padding: 60px 0 30px;
+            color: #9aabb6;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+        .footer-grid h3 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        .footer-grid a {
+            color: #9aabb6;
+            text-decoration: none;
+            line-height: 2;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: white;
+            padding: 14px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        @media (max-width: 1000px) {
+            .container { padding: 0 25px; }
+            .about-grid, .mission-vision, .stats-grid, .values-grid, .timeline-grid, .footer-grid {
+                grid-template-columns: 1fr;
+            }
+            .page-header h1 { font-size: 2.5rem; }
+            .nav-links { display: none; }
+            .hamburger { display: block; }
+            .timeline-section { padding: 30px; }
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="top-bar">
+    <div class="container top-bar-flex">
+        <div class="top-bar-left">
+            <span><i class="fas fa-map-marker-alt"></i> Court, 906, Pocket 10, Sector 5B, Rohini, Delhi, 110085</span>
+            <span><i class="fas fa-gavel"></i> Supreme Court of India | Delhi District Courts</span>
+        </div>
+        <div class="top-bar-right">
+            <span><i class="fas fa-phone-alt"></i> +91 9718037056 / 09718037056</span>
+            <span><i class="fas fa-envelope"></i> ramraghvendrar@gmail.com</span>
+            <span><i class="fas fa-clock"></i> Mon-Sat: 10AM - 6PM</span>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar">
+    <div class="container nav-flex">
+        <div class="logo-area">
+        
+            <div class="logo-text">
+                <h1>RAM RAGHVENDRA & ASSOCIATES</h1>
+                <p>ADVOCATE | SUPREME COURT OF INDIA | 18+ YEARS</p>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="practice-areas.html">Practice Areas</a></li>
+            <li><a href="about.html" class="active-page">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+           
+        </ul>
+        <button class="hamburger" id="hamburgerBtn"><i class="fas fa-bars"></i></button>
+    </div>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+    <div class="close-btn" id="closeNav"><i class="fas fa-times"></i></div>
+    <a href="index.html" onclick="closeMobileNav()">🏠 Home</a>
+    <a href="practice-areas.html" onclick="closeMobileNav()">⚖️ Practice Areas</a>
+    <a href="about.html" onclick="closeMobileNav()">👨‍⚖️ About</a>
+    <a href="contact.html" onclick="closeMobileNav()">📞 Contact</a>
+    <a href="contact.html" onclick="closeMobileNav()" class="mobile-nav-btn">📞 Free Consultation</a>
+</div>
+
+
+<section class="page-header">
+    <div class="container">
+        <h1 data-aos="fade-up">About <span style="color:#7a3617;">RAM RAGHVENDRA & ASSOCIATES</span></h1>
+        <p data-aos="fade-up">18+ Years of Legal Excellence | Trusted Advocate Since 2008</p>
+    </div>
+</section>
+
+<section class="about-content">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-text" data-aos="fade-right">
+                <h2>Advocate Ram Raghvendra Kumar</h2>
+                <p><strong>RAM RAGHVENDRA & ASSOCIATES</strong> is a premier law firm based in Rohini, Delhi, led by <strong>Advocate Ram Raghvendra Kumar</strong>. With over <strong>18 years of continuous legal practice</strong> since 2008, the firm has established itself as a trusted name in the legal fraternity.</p>
+                <p>Advocate Ram Raghvendra Kumar completed his <strong>LL.B from Patna University</strong> and started his legal journey as a junior advocate at Tis Hazari Courts. His dedication, meticulous preparation, and persuasive advocacy quickly earned him recognition, leading to the establishment of his independent practice and later <strong>RAM RAGHVENDRA & ASSOCIATES</strong>.</p>
+                <p>The firm regularly appears before the <strong>District Courts of Delhi</strong> (Rohini, Tis Hazari, Saket, Patiala House) and the <strong>Hon'ble Supreme Court of India</strong>. Specialized expertise includes <strong>MACT, Consumer Protection, Civil Litigation, Labour Disputes, Arbitration, Criminal Defence, and Special Leave Petitions (SLPs)</strong>.</p>
+                <p>What sets RAM RAGHVENDRA & ASSOCIATES apart is the <strong>client-centric approach</strong>, transparent communication, and unwavering commitment to justice. The firm believes in keeping clients informed at every stage and providing practical, cost-effective legal solutions.</p>
+            </div>
+            <div class="about-image" data-aos="fade-left">
+                <i class="fas fa-balance-scale"></i>
+                <h3>RAM RAGHVENDRA & ASSOCIATES</h3>
+                <p>Advocate Ram Raghvendra Kumar</p>
+                <p style="margin-top: 20px;"><i class="fas fa-map-marker-alt"></i> Court, 906, Pocket 10, Sector 5B, Rohini, Delhi</p>
+                <p><i class="fas fa-phone-alt"></i> +91 9718037056 | 09718037056</p>
+                <p><i class="fas fa-envelope"></i> ramraghvendrar@gmail.com</p>
+                <div style="margin-top: 20px;">
+                    <span style="background:#7a3617; color:white; padding:5px 15px; border-radius:30px; font-size:0.8rem;">Enrolment: D-627/2008</span>
+                    <span style="background:#7a3617; color:white; padding:5px 15px; border-radius:30px; font-size:0.8rem; margin-left:10px;">SCBA: 2334/K/1035/2011</span>
+                </div>
+            </div>
+        </div>
+
+      
+        <div class="mission-vision" data-aos="fade-up">
+            <div class="mv-card">
+                <i class="fas fa-bullseye"></i>
+                <h3>Our Mission</h3>
+                <p>To provide accessible, affordable, and quality legal services to every client while ensuring justice is delivered with integrity and excellence.</p>
+            </div>
+            <div class="mv-card">
+                <i class="fas fa-eye"></i>
+                <h3>Our Vision</h3>
+                <p>To become the most trusted legal partner in Delhi NCR, known for ethical practice, client satisfaction, and successful case outcomes.</p>
+            </div>
+            <div class="mv-card">
+                <i class="fas fa-handshake"></i>
+                <h3>Our Promise</h3>
+                <p>Transparent fee structure, regular case updates, honest advice, and relentless pursuit of justice for every client.</p>
+            </div>
+        </div>
+
+     
+        <h2 class="timeline-title" data-aos="fade-up">Our Core Values</h2>
+        <div class="values-grid" data-aos="fade-up">
+            <div class="value-card"><i class="fas fa-shield-alt"></i><h4>Integrity</h4><p>Uncompromising honesty in all dealings</p></div>
+            <div class="value-card"><i class="fas fa-clock"></i><h4>Punctuality</h4><p>Respect for client's time and deadlines</p></div>
+            <div class="value-card"><i class="fas fa-comments"></i><h4>Accessibility</h4><p>Always available for client queries</p></div>
+            <div class="value-card"><i class="fas fa-trophy"></i><h4>Excellence</h4><p>Striving for best possible outcomes</p></div>
+        </div>
+
+      
+        <div class="stats-about" data-aos="fade-up">
+            <div class="stats-grid">
+                <div class="stat-about"><h2>500+</h2><p>Cases Won</p></div>
+                <div class="stat-about"><h2>18+</h2><p>Years Experience</p></div>
+                <div class="stat-about"><h2>1000+</h2><p>Happy Clients</p></div>
+                <div class="stat-about"><h2>98%</h2><p>Success Rate</p></div>
+            </div>
+        </div>
+
+
+        <div class="timeline-section" data-aos="fade-up">
+            <h2 class="timeline-title">Professional Journey Timeline</h2>
+            <div class="timeline-grid">
+                <div class="timeline-item">
+                    <div class="timeline-year">2008 – 2009</div>
+                    <div class="timeline-title-sm">Junior Advocate</div>
+                    <p>Chambers of Sh. Landra Dhayia, Tis Hazari Courts, Delhi<br>Specialized in MACT, Consumer Disputes & Civil Litigation</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2009 – 2010</div>
+                    <div class="timeline-title-sm">Associate Advocate</div>
+                    <p>R.S. Dalal & Associates, Rohini Court, Delhi<br>Handled Land Acquisition Cases (LAC) & MACT Matters</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2010 – 2011</div>
+                    <div class="timeline-title-sm">Supreme Court Junior</div>
+                    <p>S. Chandra Sekhar, Supreme Court of India<br>Worked on Criminal SLPs, Civil SLPs & Constitutional Matters</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2011 – Present</div>
+                    <div class="timeline-title-sm">Founder, RAM RAGHVENDRA & ASSOCIATES</div>
+                    <p>Established independent practice, now a trusted law firm in Rohini Court handling diverse legal matters</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2015 – Present</div>
+                    <div class="timeline-title-sm">Partner</div>
+                    <p>Rahul Bhardwaj & Co. Law Firm<br>Handling Arbitration, Commercial Litigation at Saket Court & Patiala House</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">Education</div>
+                    <div class="timeline-title-sm">Academic Qualifications</div>
+                    <p>🎓 LL.B - Patna University<br>📚 Graduation - B.N.M.U<br>⚖️ Bar Enrolment: D-627/2008<br>🏛️ SCBA: 2334/K/1035/2011</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="timeline-title" data-aos="fade-up">Why Choose RAM RAGHVENDRA & ASSOCIATES?</h2>
+        <div class="mission-vision" data-aos="fade-up">
+            <div class="mv-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>18+ Years Experience</h3>
+                <p>Deep understanding of trial & appellate courts with proven track record since 2008.</p>
+            </div>
+            <div class="mv-card">
+                <i class="fas fa-rupee-sign"></i>
+                <h3>Transparent Fees</h3>
+                <p>Clear, upfront fee structure with no hidden charges or surprises.</p>
+            </div>
+            <div class="mv-card">
+                <i class="fas fa-users"></i>
+                <h3>Client First Approach</h3>
+                <p>Personalized attention, regular updates, and 24/7 availability for clients.</p>
+            </div>
+            <div class="mv-card">
+                <i class="fas fa-gavel"></i>
+                <h3>Strong Court Presence</h3>
+                <p>Regular appearances in District Courts, High Court & Supreme Court of India.</p>
+            </div>
+        </div>
+
+      
+        <div style="background: #fdf9f5; border-radius: 30px; padding: 40px; margin: 50px 0;" data-aos="fade-up">
+            <h2 style="text-align: center; margin-bottom: 30px;">Courts We Regularly Appear In</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+                <div><i class="fas fa-building"></i> Supreme Court of India</div>
+                <div><i class="fas fa-building"></i> Rohini District Court</div>
+                <div><i class="fas fa-building"></i> Tis Hazari Court</div>
+                <div><i class="fas fa-building"></i> Saket Court</div>
+                <div><i class="fas fa-building"></i> Patiala House Court</div>
+                <div><i class="fas fa-building"></i> Delhi High Court</div>
+                <div><i class="fas fa-building"></i> Various Tribunals (CAT, DRT, etc.)</div>
+            </div>
+        </div>
+
+     
+        <div class="contact-cta" data-aos="fade-up">
+            <h2>Need Legal Assistance?</h2>
+            <p>Get in touch with RAM RAGHVENDRA & ASSOCIATES for a confidential consultation.</p>
+            <a href="contact.html" class="cta-btn">📞 Schedule a Consultation →</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-grid">
+        <div><h3>RAM RAGHVENDRA & ASSOCIATES</h3><p>Adv. Ram Raghvendra Kumar</p><p>Supreme Court of India</p><p>18+ Years (2008-2026)</p></div>
+        <div><h3>Quick Links</h3><a href="index.html">Home</a><br><a href="practice-areas.html">Practice Areas</a><br><a href="about.html">About</a><br><a href="contact.html">Contact</a></div>
+        <div><h3>Contact Info</h3><p>+91 9718037056</p><p>09718037056</p><p>ramraghvendrar@gmail.com</p><p>Court, 906, Pocket 10, Sector 5B, Rohini, Delhi-110085</p></div>
+    </div>
+    <div class="container" style="text-align:center; border-top:1px solid #1e2e3a; padding-top:25px;">
+        <p>© 2026 RAM RAGHVENDRA & ASSOCIATES | All Rights Reserved</p>
+    </div>
+</footer>
+
+<a href="https://wa.me/919718037056" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i> Chat with Us</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 800, once: true });
+    
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const mobileNav = document.getElementById('mobileNav');
+    const closeNav = document.getElementById('closeNav');
+    
+    function openMobileNav() {
+        mobileNav.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeMobileNav() {
+        mobileNav.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    hamburgerBtn.addEventListener('click', openMobileNav);
+    closeNav.addEventListener('click', closeMobileNav);
+    window.closeMobileNav = closeMobileNav;
+</script>
+</body>
+</html--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="About RAM RAGHVENDRA & ASSOCIATES - Advocate Ram Raghvendra Kumar - 18+ Years Experience | Supreme Court of India | Delhi District Courts">
+    <meta name="keywords" content="About RAM RAGHVENDRA & ASSOCIATES, Advocate Ram Raghvendra Kumar, Lawyer Profile, Delhi Advocate">
+    <meta name="author" content="RAM RAGHVENDRA & ASSOCIATES">
+    <title>About Us | RAM RAGHVENDRA & ASSOCIATES | Adv. Ram Raghvendra Kumar</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #ffffff;
+            color: #1a2a3a;
+            overflow-x: hidden;
+        }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f0e6de; }
+        ::-webkit-scrollbar-thumb { background: #8b3c1c; border-radius: 10px; }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        /* Top Bar */
+        .top-bar {
+            background: #0f1e28;
+            color: #e8d9cc;
+            padding: 12px 0;
+            font-size: 0.85rem;
+            position: relative;
+            z-index: 1001;
+        }
+        .top-bar-flex {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .top-bar-left span, .top-bar-right span {
+            margin-right: 28px;
+        }
+        .top-bar-left i, .top-bar-right i {
+            margin-right: 8px;
+            color: #c47a44;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: #ffffff;
+            box-shadow: 0 8px 35px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 15px 0;
+        }
+        .nav-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo-img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border: 2px solid #7a3617;
+            background: #f5ebe1;
+        }
+        .logo-text h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #7a3617;
+        }
+        .logo-text p {
+            font-size: 0.6rem;
+            color: #6a7c8a;
+            font-weight: 600;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 35px;
+            list-style: none;
+        }
+        .nav-links a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #2c3e4e;
+            transition: 0.3s;
+            font-size: 0.9rem;
+        }
+        .nav-links a:hover {
+            color: #b45a2b;
+        }
+        .nav-btn {
+            background: #7a3617;
+            color: white !important;
+            padding: 10px 28px;
+            border-radius: 50px;
+        }
+        .active-page {
+            color: #7a3617 !important;
+            border-bottom: 2px solid #c47a44;
+        }
+
+        .hamburger {
+            display: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: #7a3617;
+            background: none;
+            border: none;
+        }
+
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: #0f1e28;
+            z-index: 2000;
+            padding: 80px 30px;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .mobile-nav.active {
+            display: flex;
+        }
+        .mobile-nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: 600;
+            padding: 12px 0;
+            border-bottom: 1px solid #2a4a5a;
+        }
+        .mobile-nav .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 32px;
+            color: white;
+            cursor: pointer;
+        }
+        .mobile-nav .mobile-nav-btn {
+            background: #7a3617;
+            display: inline-block;
+            text-align: center;
+            padding: 12px;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+
+        /* Page Header */
+        .page-header {
+            background: linear-gradient(125deg, #fdf8f2 0%, #f5ebe1 100%);
+            padding: 60px 0;
+            text-align: center;
+        }
+        .page-header h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: #1e2f3c;
+        }
+        .page-header p {
+            color: #6a7c8a;
+            margin-top: 15px;
+            font-size: 1.1rem;
+        }
+
+        /* About Content */
+        .about-content {
+            padding: 70px 0;
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+        .about-text h2 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.2rem;
+            color: #1e2f3c;
+            margin-bottom: 25px;
+        }
+        .about-text p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #4a6272;
+        }
+        .about-image {
+            background: linear-gradient(135deg, #fdf9f5, #faf3ea);
+            border-radius: 30px;
+            padding: 40px;
+            text-align: center;
+        }
+        .about-image i {
+            font-size: 6rem;
+            color: #7a3617;
+            margin-bottom: 20px;
+        }
+        .about-image h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        /* Mission Vision */
+        .mission-vision {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 35px;
+            margin: 60px 0;
+        }
+        .mv-card {
+            background: white;
+            padding: 35px;
+            border-radius: 25px;
+            text-align: center;
+            border: 1px solid #eee5dd;
+            transition: 0.3s;
+        }
+        .mv-card:hover {
+            transform: translateY(-8px);
+            border-color: #c47a44;
+        }
+        .mv-card i {
+            font-size: 2.5rem;
+            color: #7a3617;
+            margin-bottom: 20px;
+        }
+        .mv-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+        .mv-card p {
+            color: #6a7c8a;
+            line-height: 1.6;
+        }
+
+        /* Timeline */
+        .timeline-section {
+            background: linear-gradient(135deg, #fdf9f5 0%, #faf3ea 100%);
+            border-radius: 50px;
+            padding: 60px;
+            margin: 50px 0;
+        }
+        .timeline-title {
+            text-align: center;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.2rem;
+            margin-bottom: 45px;
+        }
+        .timeline-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+        .timeline-item {
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            position: relative;
+            border-left: 4px solid #c47a44;
+        }
+        .timeline-year {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #7a3617;
+            margin-bottom: 10px;
+        }
+        .timeline-title-sm {
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        /* Stats */
+        .stats-about {
+            background: #0f1e28;
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+            border-radius: 30px;
+            margin: 50px 0;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+        }
+        .stat-about h2 {
+            font-size: 2.8rem;
+            color: #c47a44;
+        }
+
+        /* Core Values */
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            margin: 50px 0;
+        }
+        .value-card {
+            text-align: center;
+            padding: 25px;
+            background: #fdf9f5;
+            border-radius: 20px;
+        }
+        .value-card i {
+            font-size: 2rem;
+            color: #7a3617;
+            margin-bottom: 15px;
+        }
+
+        /* Contact CTA */
+        .contact-cta {
+            background: #7a3617;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            border-radius: 30px;
+            margin: 50px 0;
+        }
+        .contact-cta h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        .contact-cta .cta-btn {
+            background: white;
+            color: #7a3617;
+            padding: 14px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        footer {
+            background: #09131a;
+            padding: 60px 0 30px;
+            color: #9aabb6;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+        .footer-grid h3 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        .footer-grid a {
+            color: #9aabb6;
+            text-decoration: none;
+            line-height: 2;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: white;
+            padding: 14px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        @media (max-width: 1000px) {
+            .container { padding: 0 25px; }
+            .about-grid, .mission-vision, .stats-grid, .values-grid, .timeline-grid, .footer-grid {
+                grid-template-columns: 1fr;
+            }
+            .page-header h1 { font-size: 2.5rem; }
+            .nav-links { display: none; }
+            .hamburger { display: block; }
+            .timeline-section { padding: 30px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="top-bar">
+    <div class="container top-bar-flex">
+        <div class="top-bar-left">
+            <span><i class="fas fa-map-marker-alt"></i> Court, 906, Pocket 10, Sector 5B, Rohini, Delhi, 110085</span>
+            <span><i class="fas fa-gavel"></i> Supreme Court of India | Delhi District Courts</span>
+        </div>
+        <div class="top-bar-right">
+            <span><i class="fas fa-phone-alt"></i> +91 9718037056 / 09718037056</span>
+            <span><i class="fas fa-envelope"></i> ramraghvendrar@gmail.com</span>
+            <span><i class="fas fa-clock"></i> Mon-Sat: 10AM - 6PM</span>
+        </div>
+    </div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="container nav-flex">
+        <div class="logo-area">
+            <!--img src="karwallaw.jpeg" alt="Logo" class="logo-img" onerror="this.src='https://placehold.co/60x60/7a3617/white?text=R&A';"-->
+            <div class="logo-text">
+                <h1>RAM RAGHVENDRA & ASSOCIATES</h1>
+                <p>ADVOCATE | SUPREME COURT OF INDIA | 18+ YEARS</p>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="practice.html">Practice Areas</a></li>
+            <li><a href="about.html" class="active-page">About</a></li>
+            <li><a href="Testimonal.html">Testimonials</a></li>
+            
+        </ul>
+        <button class="hamburger" id="hamburgerBtn"><i class="fas fa-bars"></i></button>
+    </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobileNav">
+    <div class="close-btn" id="closeNav"><i class="fas fa-times"></i></div>
+    <a href="index.html" onclick="closeMobileNav()">🏠 Home</a>
+    <a href="practice-areas.html" onclick="closeMobileNav()">⚖️ Practice Areas</a>
+    <a href="about.html" onclick="closeMobileNav()">👨‍⚖️ About</a>
+    <a href="Testimonial.html" onclick="closeMobileNav()">⭐ Testimonials</a>
+    <a href="contact.html" onclick="closeMobileNav()">📞 Contact</a>
+   
+</div>
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container">
+        <h1 data-aos="fade-up">About <span style="color:#7a3617;">RAM RAGHVENDRA & ASSOCIATES</span></h1>
+        <p data-aos="fade-up">18+ Years of Legal Excellence | Trusted Advocate Since 2008</p>
+    </div>
+</section>
+
+<!-- About Content -->
+<section class="about-content">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-text" data-aos="fade-right">
+                <h2>Advocate Ram Raghvendra Kumar</h2>
+                <p><strong>RAM RAGHVENDRA & ASSOCIATES</strong> is a premier law firm based in Rohini, Delhi, led by <strong>Advocate Ram Raghvendra Kumar</strong>. With over <strong>18 years of continuous legal practice</strong> since 2008, the firm has established itself as a trusted name in the legal fraternity.</p>
+                <p>Advocate Ram Raghvendra Kumar completed his <strong>LL.B from Patna University</strong> and started his legal journey as a junior advocate at Tis Hazari Courts. His dedication, meticulous preparation, and persuasive advocacy quickly earned him recognition, leading to the establishment of his independent practice and later <strong>RAM RAGHVENDRA & ASSOCIATES</strong>.</p>
+                <p>The firm regularly appears before the <strong>District Courts of Delhi</strong> (Rohini, Tis Hazari, Saket, Patiala House) and the <strong>Hon'ble Supreme Court of India</strong>. Specialized expertise includes <strong>MACT, Consumer Protection, Civil Litigation, Labour Disputes, Arbitration, Criminal Defence, and Special Leave Petitions (SLPs)</strong>.</p>
+                <p>What sets RAM RAGHVENDRA & ASSOCIATES apart is the <strong>client-centric approach</strong>, transparent communication, and unwavering commitment to justice. The firm believes in keeping clients informed at every stage and providing practical, cost-effective legal solutions.</p>
+            </div>
+            <div class="about-image" data-aos="fade-left">
+                <i class="fas fa-balance-scale"></i>
+                <h3>RAM RAGHVENDRA & ASSOCIATES</h3>
+                <p>Advocate Ram Raghvendra Kumar</p>
+                <p style="margin-top: 20px;"><i class="fas fa-map-marker-alt"></i> Court, 906, Pocket 10, Sector 5B, Rohini, Delhi</p>
+                <p><i class="fas fa-phone-alt"></i> +91 9718037056 | 09718037056</p>
+                <p><i class="fas fa-envelope"></i> ramraghvendrar@gmail.com</p>
+                <div style="margin-top: 20px;">
+                    <span style="background:#7a3617; color:white; padding:5px 15px; border-radius:30px; font-size:0.8rem;">Enrolment: D-627/2008</span>
+                    <span style="background:#7a3617; color:white; padding:5px 15px; border-radius:30px; font-size:0.8rem; margin-left:10px;">SCBA: 2334/K/1035/2011</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mission Vision Values -->
+        <div class="mission-vision" data-aos="fade-up">
+            <div class="mv-card">
+                <i class="fas fa-bullseye"></i>
+                <h3>Our Mission</h3>
+                <p>To provide accessible, affordable, and quality legal services to every client while ensuring justice is delivered with integrity and excellence.</p>
+            </div>
+            <div class="mv-card">
+                <i class="fas fa-eye"></i>
+                <h3>Our Vision</h3>
+                <p>To become the most trusted legal partner in Delhi NCR, known for ethical practice, client satisfaction, and successful case outcomes.</p>
+            </div>
+            <div class="mv-card">
+                <i class="fas fa-handshake"></i>
+                <h3>Our Promise</h3>
+                <p>Transparent fee structure, regular case updates, honest advice, and relentless pursuit of justice for every client.</p>
+            </div>
+        </div>
+
+        <!-- Core Values -->
+        <h2 class="timeline-title" data-aos="fade-up">Our Core Values</h2>
+        <div class="values-grid" data-aos="fade-up">
+            <div class="value-card"><i class="fas fa-shield-alt"></i><h4>Integrity</h4><p>Uncompromising honesty in all dealings</p></div>
+            <div class="value-card"><i class="fas fa-clock"></i><h4>Punctuality</h4><p>Respect for client's time and deadlines</p></div>
+            <div class="value-card"><i class="fas fa-comments"></i><h4>Accessibility</h4><p>Always available for client queries</p></div>
+            <div class="value-card"><i class="fas fa-trophy"></i><h4>Excellence</h4><p>Striving for best possible outcomes</p></div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-about" data-aos="fade-up">
+            <div class="stats-grid">
+                <div class="stat-about"><h2>500+</h2><p>Cases Won</p></div>
+                <div class="stat-about"><h2>18+</h2><p>Years Experience</p></div>
+                <div class="stat-about"><h2>1000+</h2><p>Happy Clients</p></div>
+                <div class="stat-about"><h2>98%</h2><p>Success Rate</p></div>
+            </div>
+        </div>
+
+        <!-- Professional Journey Timeline -->
+        <div class="timeline-section" data-aos="fade-up">
+            <h2 class="timeline-title">Professional Journey Timeline</h2>
+            <div class="timeline-grid">
+                <div class="timeline-item">
+                    <div class="timeline-year">2008 – 2009</div>
+                    <div class="timeline-title-sm">Junior Advocate</div>
+                    <p>Chambers of Sh. Landra Dhayia, Tis Hazari Courts, Delhi<br>Specialized in MACT, Consumer Disputes & Civil Litigation</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2009 – 2010</div>
+                    <div class="timeline-title-sm">Associate Advocate</div>
+                    <p>R.S. Dalal & Associates, Rohini Court, Delhi<br>Handled Land Acquisition Cases (LAC) & MACT Matters</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2010 – 2011</div>
+                    <div class="timeline-title-sm">Supreme Court Junior</div>
+                    <p>S. Chandra Sekhar, Supreme Court of India<br>Worked on Criminal SLPs, Civil SLPs & Constitutional Matters</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2011 – Present</div>
+                    <div class="timeline-title-sm">Founder, RAM RAGHVENDRA & ASSOCIATES</div>
+                    <p>Established independent practice, now a trusted law firm in Rohini Court handling diverse legal matters</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2015 – Present</div>
+                    <div class="timeline-title-sm">Partner</div>
+                    <p>Rahul Bhardwaj & Co. Law Firm<br>Handling Arbitration, Commercial Litigation at Saket Court & Patiala House</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">Education</div>
+                    <div class="timeline-title-sm">Academic Qualifications</div>
+                    <p>🎓 LL.B - Patna University<br>📚 Graduation - B.N.M.U<br>⚖️ Bar Enrolment: D-627/2008<br>🏛️ SCBA: 2334/K/1035/2011</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Choose Us -->
+        <h2 class="timeline-title" data-aos="fade-up">Why Choose RAM RAGHVENDRA & ASSOCIATES?</h2>
+        <div class="mission-vision" data-aos="fade-up">
+            <div class="mv-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>18+ Years Experience</h3>
+                <p>Deep understanding of trial & appellate courts with proven track record since 2008.</p>
+            </div>
+            <div class="mv-card">
+                <i class="fas fa-rupee-sign"></i>
+                <h3>Transparent Fees</h3>
+                <p>Clear, upfront fee structure with no hidden charges or surprises.</p>
+            </div>
+            <div class="mv-card">
+                <i class="fas fa-users"></i>
+                <h3>Client First Approach</h3>
+                <p>Personalized attention, regular updates, and 24/7 availability for clients.</p>
+            </div>
+            <div class="mv-card">
+                <i class="fas fa-gavel"></i>
+                <h3>Strong Court Presence</h3>
+                <p>Regular appearances in District Courts, High Court & Supreme Court of India.</p>
+            </div>
+        </div>
+
+        <!-- Courts Appeared -->
+        <div style="background: #fdf9f5; border-radius: 30px; padding: 40px; margin: 50px 0;" data-aos="fade-up">
+            <h2 style="text-align: center; margin-bottom: 30px;">Courts We Regularly Appear In</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+                <div><i class="fas fa-building"></i> Supreme Court of India</div>
+                <div><i class="fas fa-building"></i> Rohini District Court</div>
+                <div><i class="fas fa-building"></i> Tis Hazari Court</div>
+                <div><i class="fas fa-building"></i> Saket Court</div>
+                <div><i class="fas fa-building"></i> Patiala House Court</div>
+                <div><i class="fas fa-building"></i> Delhi High Court</div>
+                <div><i class="fas fa-building"></i> Various Tribunals (CAT, DRT, etc.)</div>
+            </div>
+        </div>
+
+        <!-- Contact CTA -->
+        <div class="contact-cta" data-aos="fade-up">
+            <h2>Need Legal Assistance?</h2>
+            <p>Get in touch with RAM RAGHVENDRA & ASSOCIATES for a confidential consultation.</p>
+            <a href="contact.html" class="cta-btn">📞 Schedule a Consultation →</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container footer-grid">
+        <div><h3>RAM RAGHVENDRA & ASSOCIATES</h3><p>Adv. Ram Raghvendra Kumar</p><p>Supreme Court of India</p><p>18+ Years (2008-2026)</p></div>
+        <div><h3>Quick Links</h3><a href="index.html">Home</a><br><a href="practice-areas.html">Practice Areas</a><br><a href="about.html">About</a><br><a href="testimonials.html">Testimonials</a><br><a href="contact.html">Contact</a></div>
+        <div><h3>Contact Info</h3><p>+91 9718037056</p><p>09718037056</p><p>ramraghvendrar@gmail.com</p><p>Court, 906, Pocket 10, Sector 5B, Rohini, Delhi-110085</p></div>
+    </div>
+    <div class="container" style="text-align:center; border-top:1px solid #1e2e3a; padding-top:25px;">
+        <p>© 2026 RAM RAGHVENDRA & ASSOCIATES | All Rights Reserved</p>
+    </div>
+</footer>
+
+<a href="https://wa.me/919718037056" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i> Chat with Us</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 800, once: true });
+    
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const mobileNav = document.getElementById('mobileNav');
+    const closeNav = document.getElementById('closeNav');
+    
+    function openMobileNav() {
+        mobileNav.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeMobileNav() {
+        mobileNav.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    hamburgerBtn.addEventListener('click', openMobileNav);
+    closeNav.addEventListener('click', closeMobileNav);
+    window.closeMobileNav = closeMobileNav;
+</script>
+</body>
+</html>

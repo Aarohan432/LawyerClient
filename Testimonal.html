@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="Client Testimonials - RAM RAGHVENDRA & ASSOCIATES - Advocate Ram Raghvendra Kumar - 18+ Years Experience | Supreme Court of India">
+    <meta name="keywords" content="Client Testimonials, Lawyer Reviews, RAM RAGHVENDRA & ASSOCIATES, Advocate Reviews, Delhi Lawyer Feedback">
+    <meta name="author" content="RAM RAGHVENDRA & ASSOCIATES">
+    <title>Client Testimonials | RAM RAGHVENDRA & ASSOCIATES | Adv. Ram Raghvendra Kumar</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #ffffff;
+            color: #1a2a3a;
+            overflow-x: hidden;
+        }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f0e6de; }
+        ::-webkit-scrollbar-thumb { background: #8b3c1c; border-radius: 10px; }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        /* Top Bar */
+        .top-bar {
+            background: #0f1e28;
+            color: #e8d9cc;
+            padding: 12px 0;
+            font-size: 0.85rem;
+            position: relative;
+            z-index: 1001;
+        }
+        .top-bar-flex {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .top-bar-left span, .top-bar-right span {
+            margin-right: 28px;
+        }
+        .top-bar-left i, .top-bar-right i {
+            margin-right: 8px;
+            color: #c47a44;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: #ffffff;
+            box-shadow: 0 8px 35px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 15px 0;
+        }
+        .nav-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo-img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border: 2px solid #7a3617;
+            background: #f5ebe1;
+        }
+        .logo-text h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #7a3617;
+        }
+        .logo-text p {
+            font-size: 0.6rem;
+            color: #6a7c8a;
+            font-weight: 600;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 35px;
+            list-style: none;
+        }
+        .nav-links a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #2c3e4e;
+            transition: 0.3s;
+            font-size: 0.9rem;
+        }
+        .nav-links a:hover {
+            color: #b45a2b;
+        }
+        .nav-btn {
+            background: #7a3617;
+            color: white !important;
+            padding: 10px 28px;
+            border-radius: 50px;
+        }
+        .active-page {
+            color: #7a3617 !important;
+            border-bottom: 2px solid #c47a44;
+        }
+
+        .hamburger {
+            display: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: #7a3617;
+            background: none;
+            border: none;
+        }
+
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: #0f1e28;
+            z-index: 2000;
+            padding: 80px 30px;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .mobile-nav.active {
+            display: flex;
+        }
+        .mobile-nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: 600;
+            padding: 12px 0;
+            border-bottom: 1px solid #2a4a5a;
+        }
+        .mobile-nav .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 32px;
+            color: white;
+            cursor: pointer;
+        }
+        .mobile-nav .mobile-nav-btn {
+            background: #7a3617;
+            display: inline-block;
+            text-align: center;
+            padding: 12px;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+
+        /* Page Header */
+        .page-header {
+            background: linear-gradient(125deg, #fdf8f2 0%, #f5ebe1 100%);
+            padding: 60px 0;
+            text-align: center;
+        }
+        .page-header h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: #1e2f3c;
+        }
+        .page-header p {
+            color: #6a7c8a;
+            margin-top: 15px;
+            font-size: 1.1rem;
+        }
+
+        /* Stats Summary */
+        .stats-summary {
+            background: #0f1e28;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            margin: 40px 0;
+            border-radius: 30px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+        .stat-item h2 {
+            font-size: 2.5rem;
+            color: #c47a44;
+        }
+
+        /* Testimonials Grid */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 35px;
+            margin: 50px 0;
+        }
+        .testimonial-card {
+            background: white;
+            padding: 35px;
+            border-radius: 28px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border: 1px solid #eee5dd;
+            transition: 0.3s;
+            position: relative;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border-color: #c47a44;
+        }
+        .quote-icon {
+            font-size: 2.5rem;
+            color: #c47a4433;
+            position: absolute;
+            top: 20px;
+            left: 25px;
+        }
+        .testimonial-text {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: #4a6272;
+            margin: 30px 0 20px 0;
+            position: relative;
+            z-index: 1;
+            font-style: italic;
+        }
+        .stars {
+            color: #ffb802;
+            margin: 15px 0;
+            font-size: 1rem;
+        }
+        .client-info {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee5dd;
+        }
+        .client-initial {
+            font-weight: 700;
+            color: #7a3617;
+        }
+        .client-city {
+            font-size: 0.8rem;
+            color: #9aabb6;
+        }
+        .case-type {
+            display: inline-block;
+            background: #f0e4da;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #7a3617;
+            margin-top: 10px;
+        }
+
+        /* Featured Testimonial */
+        .featured-testimonial {
+            background: linear-gradient(135deg, #fdf9f5 0%, #faf3ea 100%);
+            border-radius: 40px;
+            padding: 50px;
+            margin: 50px 0;
+            text-align: center;
+        }
+        .featured-quote {
+            font-size: 3rem;
+            color: #c47a44;
+            opacity: 0.5;
+        }
+        .featured-text {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            font-style: italic;
+            max-width: 800px;
+            margin: 20px auto;
+            color: #1e2f3c;
+        }
+
+        /* Video Testimonials Section */
+        .video-section {
+            background: #fdf9f5;
+            border-radius: 30px;
+            padding: 50px;
+            margin: 50px 0;
+            text-align: center;
+        }
+        .video-placeholder {
+            background: #e8d9cc;
+            border-radius: 20px;
+            padding: 60px;
+            margin-top: 30px;
+        }
+        .video-placeholder i {
+            font-size: 4rem;
+            color: #7a3617;
+            margin-bottom: 20px;
+        }
+
+        /* Submit Review CTA */
+        .review-cta {
+            background: #7a3617;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            border-radius: 30px;
+            margin: 50px 0;
+        }
+        .review-cta h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        .review-cta .cta-btn {
+            background: white;
+            color: #7a3617;
+            padding: 14px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        footer {
+            background: #09131a;
+            padding: 60px 0 30px;
+            color: #9aabb6;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+        .footer-grid h3 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        .footer-grid a {
+            color: #9aabb6;
+            text-decoration: none;
+            line-height: 2;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: white;
+            padding: 14px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 1000px) {
+            .container { padding: 0 25px; }
+            .testimonials-grid, .stats-grid, .footer-grid {
+                grid-template-columns: 1fr;
+            }
+            .page-header h1 { font-size: 2.2rem; }
+            .nav-links { display: none; }
+            .hamburger { display: block; }
+            .featured-text { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="top-bar">
+    <div class="container top-bar-flex">
+        <div class="top-bar-left">
+            <span><i class="fas fa-map-marker-alt"></i> Court, 906, Pocket 10, Sector 5B, Rohini, Delhi, 110085</span>
+            <span><i class="fas fa-gavel"></i> Supreme Court of India | Delhi District Courts</span>
+        </div>
+        <div class="top-bar-right">
+            <span><i class="fas fa-phone-alt"></i> +91 9718037056 / 09718037056</span>
+            <span><i class="fas fa-envelope"></i> ramraghvendrar@gmail.com</span>
+            <span><i class="fas fa-clock"></i> Mon-Sat: 10AM - 6PM</span>
+        </div>
+    </div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="container nav-flex">
+        <div class="logo-area">
+            <!--img src="karwallaw.jpeg" alt="Logo" class="logo-img" onerror="this.src='https://placehold.co/60x60/7a3617/white?text=R&A';"-->
+            <div class="logo-text">
+                <h1>RAM RAGHVENDRA & ASSOCIATES</h1>
+                <p>ADVOCATE | SUPREME COURT OF INDIA | 18+ YEARS</p>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="practice-areas.html">Practice Areas</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="testimonials.html" class="active-page">Testimonials</a></li>
+         
+            <li><a href="contact.html" class="nav-btn">Free Consultation</a></li>
+        </ul>
+        <button class="hamburger" id="hamburgerBtn"><i class="fas fa-bars"></i></button>
+    </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobileNav">
+    <div class="close-btn" id="closeNav"><i class="fas fa-times"></i></div>
+    <a href="index.html" onclick="closeMobileNav()">🏠 Home</a>
+    <a href="practice-areas.html" onclick="closeMobileNav()">⚖️ Practice Areas</a>
+    <a href="about.html" onclick="closeMobileNav()">👨‍⚖️ About</a>
+    <a href="testimonials.html" onclick="closeMobileNav()">⭐ Testimonials</a>
+    <a href="contact.html" onclick="closeMobileNav()">📞 Contact</a>
+    <a href="contact.html" onclick="closeMobileNav()" class="mobile-nav-btn">📞 Free Consultation</a>
+</div>
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container">
+        <h1 data-aos="fade-up">Client <span style="color:#7a3617;">Testimonials</span></h1>
+        <p data-aos="fade-up">What Our Clients Say About RAM RAGHVENDRA & ASSOCIATES</p>
+    </div>
+</section>
+
+<!-- Stats Summary -->
+<section class="stats-summary" data-aos="fade-up">
+    <div class="container stats-grid">
+        <div class="stat-item"><h2>500+</h2><p>Happy Clients</p></div>
+        <div class="stat-item"><h2>98%</h2><p>Satisfaction Rate</p></div>
+        <div class="stat-item"><h2>4.9/5</h2><p>Average Rating</p></div>
+        <div class="stat-item"><h2>100+</h2><p>5-Star Reviews</p></div>
+    </div>
+</section>
+
+<!-- Main Testimonials Grid -->
+<div class="container">
+    <div class="testimonials-grid" data-aos="fade-up">
+        
+        <!-- Testimonial 1 - MACT Case -->
+        <div class="testimonial-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <div class="testimonial-text">
+                "Excellent legal representation in my accident claim case. The team handled everything professionally and I received fair compensation much faster than expected. Very grateful for their support during difficult times."
+            </div>
+            <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <div class="client-info">
+                <span class="client-initial">R. K.</span>
+                <span class="client-city">, Delhi</span>
+                <div><span class="case-type">MACT Case</span></div>
+            </div>
+        </div>
+        
+        <!-- Testimonial 2 - Consumer Case -->
+        <div class="testimonial-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <div class="testimonial-text">
+                "Had a dispute with a builder for delayed possession. Advocate Ram Raghvendra not only won the case but also got me full compensation with interest. His knowledge of consumer law is exceptional. Highly recommended!"
+            </div>
+            <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <div class="client-info">
+                <span class="client-initial">S. M.</span>
+                <span class="client-city">, Gurugram</span>
+                <div><span class="case-type">Consumer Case</span></div>
+            </div>
+        </div>
+        
+        <!-- Testimonial 3 - Arbitration -->
+        <div class="testimonial-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <div class="testimonial-text">
+                "The arbitration strategy was brilliant. They saved our business from a wrongful contract termination. Very professional, responsive, and result-oriented. Will definitely recommend to other business owners."
+            </div>
+            <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <div class="client-info">
+                <span class="client-initial">M. S.</span>
+                <span class="client-city">, Noida</span>
+                <div><span class="case-type">Arbitration Matter</span></div>
+            </div>
+        </div>
+        
+        <!-- Testimonial 4 - Civil Litigation -->
+        <div class="testimonial-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <div class="testimonial-text">
+                "Property dispute was causing me immense stress. The team at RAM RAGHVENDRA & ASSOCIATES handled everything with utmost care. Won the case and got possession. Truly professional and dedicated."
+            </div>
+            <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <div class="client-info">
+                <span class="client-initial">A. K.</span>
+                <span class="client-city">, Rohini, Delhi</span>
+                <div><span class="case-type">Civil Litigation</span></div>
+            </div>
+        </div>
+        
+        <!-- Testimonial 5 - Labour Case -->
+        <div class="testimonial-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <div class="testimonial-text">
+                "I was wrongfully terminated from my job. Advocate Ram Raghvendra fought for my rights and I got reinstated with full back wages. Can't thank him enough for his sincere efforts."
+            </div>
+            <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <div class="client-info">
+                <span class="client-initial">P. S.</span>
+                <span class="client-city">, Delhi</span>
+                <div><span class="case-type">Labour & Service</span></div>
+            </div>
+        </div>
+        
+        <!-- Testimonial 6 - Supreme Court SLP -->
+        <div class="testimonial-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <div class="testimonial-text">
+                "My SLP in the Supreme Court was handled brilliantly. The arguments were crisp and convincing. Very grateful for the outcome. Highly recommend for Supreme Court matters."
+            </div>
+            <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <div class="client-info">
+                <span class="client-initial">V. G.</span>
+                <span class="client-city">, Faridabad</span>
+                <div><span class="case-type">Supreme Court SLP</span></div>
+            </div>
+        </div>
+        
+        <!-- Testimonial 7 - Criminal Defence -->
+        <div class="testimonial-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <div class="testimonial-text">
+                "Very professional and honest advice. Got anticipatory bail in a tough case. The team was always available and guided me through the entire process. Highly trustworthy."
+            </div>
+            <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <div class="client-info">
+                <span class="client-initial">N. T.</span>
+                <span class="client-city">, Ghaziabad</span>
+                <div><span class="case-type">Criminal Defence</span></div>
+            </div>
+        </div>
+        
+        <!-- Testimonial 8 - Family/Matrimonial -->
+        <div class="testimonial-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <div class="testimonial-text">
+                "Excellent handling of my matter. The advocate was empathetic and professional. Resolved the dispute through mediation saving time and money. Highly satisfied with the service."
+            </div>
+            <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <div class="client-info">
+                <span class="client-initial">D. P.</span>
+                <span class="client-city">, Delhi</span>
+                <div><span class="case-type">Family/Matrimonial</span></div>
+            </div>
+        </div>
+        
+        <!-- Testimonial 9 - Cheque Bounce -->
+        <div class="testimonial-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <div class="testimonial-text">
+                "Cheque bounce case handled very efficiently. Got the entire amount with interest. Very transparent process and regular updates. Would definitely recommend for recovery matters."
+            </div>
+            <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <div class="client-info">
+                <span class="client-initial">H. S.</span>
+                <span class="client-city">, Delhi</span>
+                <div><span class="case-type">Cheque Bounce (138 NI Act)</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Featured Testimonial -->
+<div class="container">
+    <div class="featured-testimonial" data-aos="fade-up">
+        <div class="featured-quote">“”</div>
+        <div class="featured-text">
+            "One of the best legal firms I have worked with. Advocate Ram Raghvendra Kumar is extremely knowledgeable, responsive, and client-focused. He explains complex legal matters in simple language and always keeps you updated. His dedication to getting justice for clients is truly commendable. I have referred many friends and family to him, and everyone has had a great experience."
+        </div>
+        <div class="stars" style="justify-content: center; display: flex;">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <div class="client-initial" style="margin-top: 15px;">— A Long-Term Client</div>
+    </div>
+</div>
+
+<!-- Google Reviews Section -->
+<div class="container">
+    <div class="video-section" data-aos="fade-up">
+        <h2><i class="fab fa-google"></i> Google Reviews</h2>
+        <p style="margin-top: 15px;">We are rated 4.9/5 on Google based on client feedback</p>
+        <div class="video-placeholder">
+            <i class="fab fa-google"></i>
+            <h3>Submit Your Review on Google</h3>
+            <p>Your feedback helps us serve better</p>
+            <a href="#" style="background: #7a3617; color: white; padding: 10px 25px; border-radius: 50px; display: inline-block; margin-top: 15px; text-decoration: none;">Write a Review on Google →</a>
+        </div>
+    </div>
+</div>
+
+<!-- Submit Review CTA -->
+<div class="container">
+    <div class="review-cta" data-aos="fade-up">
+        <h2>Share Your Experience</h2>
+        <p>Have you been represented by RAM RAGHVENDRA & ASSOCIATES? We'd love to hear from you!</p>
+        <a href="contact.html" class="cta-btn">Submit Your Testimonial →</a>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container footer-grid">
+        <div>
+            <h3>RAM RAGHVENDRA & ASSOCIATES</h3>
+            <p>Adv. Ram Raghvendra Kumar</p>
+            <p>Supreme Court of India</p>
+            <p>18+ Years (2008-2026)</p>
+        </div>
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">🏠 Home</a><br>
+            <a href="practice-areas.html">⚖️ Practice Areas</a><br>
+            <a href="about.html">👨‍⚖️ About</a><br>
+            <a href="testimonials.html">⭐ Testimonials</a><br>
+            <a href="contact.html">📞 Contact</a>
+        </div>
+        <div>
+            <h3>Contact Info</h3>
+            <p><i class="fas fa-phone"></i> +91 9718037056</p>
+            <p><i class="fas fa-phone"></i> 09718037056</p>
+            <p><i class="fas fa-envelope"></i> ramraghvendrar@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Court, 906, Pocket 10, Sector 5B, Rohini, Delhi-110085</p>
+        </div>
+    </div>
+    <div class="container" style="text-align:center; border-top:1px solid #1e2e3a; padding-top:25px;">
+        <p>© 2026 RAM RAGHVENDRA & ASSOCIATES | All Rights Reserved</p>
+        <p style="margin-top: 10px; font-size:0.7rem;">*Testimonials are from actual clients. Names are kept confidential to protect client privacy.</p>
+    </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/919718037056" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp" style="font-size: 1.5rem;"></i> Chat with Us
+</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 800, once: true });
+    
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const mobileNav = document.getElementById('mobileNav');
+    const closeNav = document.getElementById('closeNav');
+    
+    function openMobileNav() {
+        mobileNav.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeMobileNav() {
+        mobileNav.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    hamburgerBtn.addEventListener('click', openMobileNav);
+    closeNav.addEventListener('click', closeMobileNav);
+    window.closeMobileNav = closeMobileNav;
+</script>
+</body>
+</html>
