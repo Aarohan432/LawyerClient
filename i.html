@@ -1,0 +1,2021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="RAM RAGHVENDRA & ASSOCIATES - Advocate Ram Raghvendra Kumar - 18+ Years Experience | Supreme Court of India | Delhi District Courts">
+    <meta name="keywords" content="RAM RAGHVENDRA & ASSOCIATES, Advocate in Delhi, Supreme Court Lawyer, MACT Lawyer, Rohini Court Lawyer">
+    <meta name="author" content="RAM RAGHVENDRA & ASSOCIATES">
+    <title>RAM RAGHVENDRA & ASSOCIATES | Adv. Ram Raghvendra Kumar | 18+ Years</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #ffffff;
+            color: #1a2a3a;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+        .top-bar {
+            background: #0f1e28;
+            color: #e8d9cc;
+            padding: 12px 0;
+            font-size: 0.85rem;
+        }
+        .top-bar-flex {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .top-bar-left span, .top-bar-right span {
+            margin-right: 28px;
+        }
+        .top-bar-left i, .top-bar-right i {
+            margin-right: 8px;
+            color: #c47a44;
+        }
+        .navbar {
+            background: #ffffff;
+            box-shadow: 0 8px 35px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 15px 0;
+        }
+        .nav-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .logo-text h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #7a3617;
+        }
+        .logo-text p {
+            font-size: 0.62rem;
+            color: #6a7c8a;
+            font-weight: 600;
+        }
+        .nav-links {
+            display: flex;
+            gap: 35px;
+            list-style: none;
+        }
+        .nav-links a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #2c3e4e;
+            transition: 0.3s;
+            font-size: 0.9rem;
+        }
+        .nav-links a:hover {
+            color: #b45a2b;
+        }
+        .nav-btn {
+            background: #7a3617;
+            color: white !important;
+            padding: 10px 28px;
+            border-radius: 50px;
+        }
+        .hamburger {
+            display: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: #7a3617;
+            background: none;
+            border: none;
+        }
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: #0f1e28;
+            z-index: 2000;
+            padding: 80px 30px;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .mobile-nav.active {
+            display: flex;
+        }
+        .mobile-nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: 600;
+            padding: 12px 0;
+            border-bottom: 1px solid #2a4a5a;
+        }
+        .mobile-nav .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 32px;
+            color: white;
+            cursor: pointer;
+        }
+        .mobile-nav .mobile-nav-btn {
+            background: #7a3617;
+            display: inline-block;
+            text-align: center;
+            padding: 12px;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+        .hero {
+            background: linear-gradient(125deg, #fdf8f2 0%, #f5ebe1 100%);
+            padding: 90px 0;
+        }
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: rgba(122,54,23,0.12);
+            color: #7a3617;
+            padding: 6px 20px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.8rem;
+            margin-bottom: 25px;
+        }
+        .hero h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.15;
+            color: #1e2f3c;
+            margin-bottom: 20px;
+        }
+        .hero-highlight {
+            color: #7a3617;
+            border-bottom: 3px solid #c47a44;
+            display: inline-block;
+        }
+        .hero-stats {
+            display: flex;
+            gap: 40px;
+            margin: 35px 0;
+            flex-wrap: wrap;
+        }
+        .stat-number {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #7a3617;
+        }
+        .hero-card {
+            background: white;
+            border-radius: 30px;
+            padding: 40px;
+            box-shadow: 0 35px 55px rgba(0,0,0,0.08);
+        }
+        section {
+            padding: 90px 0;
+        }
+        .section-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 18px;
+            color: #1e2f3c;
+        }
+        .section-subtitle {
+            text-align: center;
+            color: #6a7c8a;
+            max-width: 800px;
+            margin: 0 auto 55px auto;
+            font-size: 1.05rem;
+        }
+        
+        /* ========== JUDGMENTS SECTION - 8 CARDS ========== */
+        .judgments-section {
+            background: #fdf9f5;
+        }
+        .judgments-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        .judgment-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(122,54,23,0.1);
+        }
+        .judgment-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+        }
+        .judgment-header {
+            background: linear-gradient(135deg, #7a3617, #a54d24);
+            color: white;
+            padding: 18px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .judgment-header i {
+            font-size: 2rem;
+        }
+        .judgment-header h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+        .judgment-body {
+            padding: 20px;
+        }
+        .judgment-detail {
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px dashed #eee5dd;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .judgment-detail i {
+            width: 25px;
+            color: #7a3617;
+        }
+        .judgment-detail strong {
+            color: #1e2f3c;
+        }
+        .judgment-result {
+            background: #e8f5e9;
+            padding: 10px 15px;
+            border-radius: 12px;
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .judgment-result i {
+            color: #2e7d32;
+        }
+        .judgment-result span {
+            color: #2e7d32;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+        .pdf-view-btn {
+            width: 100%;
+            background: #7a3617;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+        .pdf-view-btn:hover {
+            background: #a54d24;
+        }
+        
+        /* Rest of the styles - same as before */
+        .cases-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        .case-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+            border: 1px solid #eee5dd;
+        }
+        .case-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+        }
+        .case-header {
+            background: linear-gradient(135deg, #7a3617, #a54d24);
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .case-header i {
+            font-size: 2.5rem;
+        }
+        .case-header h3 {
+            font-size: 1.3rem;
+            margin: 0;
+        }
+        .case-body {
+            padding: 20px;
+        }
+        .case-body p {
+            margin: 8px 0;
+            color: #4a6272;
+        }
+        .case-body strong {
+            color: #1e2f3c;
+        }
+        .case-tag {
+            display: inline-block;
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-top: 12px;
+        }
+        .practice-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 35px;
+        }
+        .practice-card {
+            background: white;
+            padding: 35px 28px;
+            border-radius: 25px;
+            transition: all 0.4s;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+            border: 1px solid #eee5dd;
+        }
+        .practice-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+            border-color: #c47a44;
+        }
+        .practice-icon {
+            font-size: 2.8rem;
+            color: #7a3617;
+            margin-bottom: 20px;
+        }
+        .practice-card h3 {
+            font-size: 1.45rem;
+            margin-bottom: 18px;
+            font-weight: 700;
+        }
+        .practice-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .practice-card li {
+            padding: 8px 0;
+            color: #4a6272;
+            font-size: 0.92rem;
+            border-bottom: 1px dashed #eee5dd;
+        }
+        .practice-card li i {
+            margin-right: 12px;
+            color: #c47a44;
+        }
+        .about-wrapper {
+            background: linear-gradient(135deg, #fdf9f5 0%, #faf3ea 100%);
+            border-radius: 50px;
+            padding: 65px;
+        }
+        .about-flex {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 55px;
+        }
+        .exp-timeline {
+            border-left: 3px solid #c47a44;
+            padding-left: 30px;
+        }
+        .exp-item {
+            margin-bottom: 28px;
+        }
+        .exp-year {
+            font-weight: 800;
+            color: #7a3617;
+            margin-bottom: 6px;
+        }
+        .counter-section {
+            background: #0f1e28;
+            color: white;
+            text-align: center;
+            padding: 70px 0;
+        }
+        .counter-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+        }
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 35px;
+        }
+        .testimonial-card {
+            background: #fdf9f5;
+            padding: 35px;
+            border-radius: 28px;
+            position: relative;
+        }
+        .testimonial-card .quote-icon {
+            font-size: 2.5rem;
+            color: #c47a4433;
+            position: absolute;
+            top: 20px;
+            left: 25px;
+        }
+        .stars {
+            color: #ffb802;
+            margin: 15px 0 10px;
+        }
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+        }
+        .faq-item {
+            background: white;
+            padding: 28px;
+            border-radius: 22px;
+            border: 1px solid #eee5dd;
+        }
+        .faq-question {
+            font-weight: 800;
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            color: #1e2f3c;
+        }
+        .faq-question i {
+            color: #7a3617;
+            margin-right: 12px;
+        }
+        .contact-section {
+            background: #0f1e28;
+            color: white;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 55px;
+        }
+        .contact-info-box {
+            background: rgba(255,255,255,0.06);
+            padding: 35px;
+            border-radius: 28px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 16px 20px;
+            margin-bottom: 18px;
+            border-radius: 50px;
+            border: none;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .contact-form textarea {
+            border-radius: 25px;
+        }
+        .submit-btn {
+            background: #c47a44;
+            color: white;
+            padding: 14px 35px;
+            border: none;
+            border-radius: 50px;
+            font-weight: 700;
+            cursor: pointer;
+            width: 100%;
+        }
+        footer {
+            background: #09131a;
+            padding: 60px 0 30px;
+            color: #9aabb6;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+        .footer-grid h3 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        .footer-grid a {
+            color: #9aabb6;
+            text-decoration: none;
+            line-height: 2;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: white;
+            padding: 14px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        /* PDF Modal */
+        .pdf-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.95);
+            z-index: 10000;
+            overflow: auto;
+        }
+        .pdf-modal-content {
+            position: relative;
+            width: 90%;
+            height: 90%;
+            margin: 2% auto;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .pdf-modal-content iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .close-pdf {
+            position: absolute;
+            right: 20px;
+            top: -45px;
+            font-size: 40px;
+            color: white;
+            cursor: pointer;
+        }
+        .close-pdf:hover {
+            color: #c47a44;
+        }
+        
+        @media (max-width: 1000px) {
+            .container { padding: 0 25px; }
+            .hero-grid, .about-flex, .contact-grid, .testimonial-grid, .counter-grid, .faq-grid, .footer-grid, .cases-grid, .judgments-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero h1 { font-size: 2.5rem; }
+            .nav-links { display: none; }
+            .hamburger { display: block; }
+        }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+            .section-title { font-size: 2rem; }
+            .about-wrapper { padding: 30px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <div class="container top-bar-flex">
+        <div class="top-bar-left">
+            <span><i class="fas fa-map-marker-alt"></i> Chamber No. 906, Rohini District Court, Sector 14, Rohini, Delhi - 110085</span>
+            <span><i class="fas fa-gavel"></i> Supreme Court of India | Delhi District Courts</span>
+        </div>
+        <div class="top-bar-right">
+            <span><i class="fas fa-phone-alt"></i> +91 9718037056 / 09718037056</span>
+            <span><i class="fas fa-envelope"></i> ramraghvendrar@gmail.com</span>
+            <span><i class="fas fa-clock"></i> Mon-Sat: 10AM - 6PM</span>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar">
+    <div class="container nav-flex">
+        <div class="logo-text">
+            <h1>RAM RAGHVENDRA & ASSOCIATES</h1>
+            <p>ADVOCATE | SUPREME COURT OF INDIA | 18+ YEARS</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#judgments">Judgments PDF</a></li>
+            <li><a href="#success-cases">Successful Cases</a></li>
+            <li><a href="#practice">Practice Areas</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact" class="nav-btn">Free Consultation</a></li>
+        </ul>
+        <button class="hamburger" id="hamburgerBtn"><i class="fas fa-bars"></i></button>
+    </div>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+    <div class="close-btn" id="closeNav"><i class="fas fa-times"></i></div>
+    <a href="#home">🏠 Home</a>
+    <a href="#judgments">📜 Judgments PDF</a>
+    <a href="#success-cases">🏆 Successful Cases</a>
+    <a href="#practice">⚖️ Practice Areas</a>
+    <a href="#about">👨‍⚖️ About</a>
+    <a href="#contact" class="mobile-nav-btn">📞 Free Consultation</a>
+</div>
+
+<section id="home" class="hero">
+    <div class="container hero-grid">
+        <div data-aos="fade-right">
+            <span class="hero-badge"><i class="fas fa-star-of-life"></i> RAM RAGHVENDRA & ASSOCIATES | 18+ YEARS (2008 - 2026)</span>
+            <h1>Your Trusted <span class="hero-highlight">Legal Partner</span> in Delhi Courts & <span class="hero-highlight">Supreme Court</span> of India</h1>
+            <p style="font-size: 1.08rem; line-height: 1.7;">RAM RAGHVENDRA & ASSOCIATES provides strategic, ethical & result-driven representation in MACT, Consumer, Civil, Labour, Arbitration and Special Leave Petitions.</p>
+            <div class="hero-stats">
+                <div class="stat-box"><div class="stat-number">500+</div><div>Cases Won</div></div>
+                <div class="stat-box"><div class="stat-number">18+</div><div>Years Experience</div></div>
+                <div class="stat-box"><div class="stat-number">1000+</div><div>Happy Clients</div></div>
+                <div class="stat-box"><div class="stat-number">5+</div><div>Courts</div></div>
+            </div>
+            <div style="display: flex; gap: 18px; flex-wrap: wrap;">
+                <a href="#contact" class="nav-btn" style="background:#7a3617; color:white;">📅 Free Consultation</a>
+                <a href="tel:9718037056" style="border:2px solid #7a3617; padding:12px 30px; border-radius:50px; text-decoration:none; color:#7a3617; font-weight:600;">📞 Call Now</a>
+            </div>
+        </div>
+        <div data-aos="fade-left">
+            <div class="hero-card">
+                <h3 style="margin-bottom: 25px;"><i class="fas fa-id-card"></i> About RAM RAGHVENDRA & ASSOCIATES</h3>
+                <p><strong>🏛️ Firm Name:</strong> RAM RAGHVENDRA & ASSOCIATES</p>
+                <p><strong>👨‍⚖️ Founder:</strong> Adv. Ram Raghvendra Kumar</p>
+                <p><strong>📜 Enrolment No.:</strong> D-627/2008</p>
+                <p><strong>🏛️ SCBA No.:</strong> 2334/K/1035/2011</p>
+                <p><strong>⚖️ Rohini Court Bar:</strong> R-849</p>
+                <p><strong>🏢 Chamber Address:</strong> Chamber No. 906, Rohini District Court, Sector 14, Rohini, Delhi - 110085</p>
+                <hr style="margin: 20px 0;">
+                <p><i class="fas fa-phone-alt"></i> <strong>+91 9718037056 / 09718037056</strong></p>
+                <p><i class="fas fa-envelope"></i> <strong>ramraghvendrar@gmail.com</strong></p>
+                <div style="margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+                    <span style="background:#f0e4da; padding:6px 18px; border-radius:30px;">Supreme Court</span>
+                    <span style="background:#f0e4da; padding:6px 18px; border-radius:30px;">Tis Hazari</span>
+                    <span style="background:#f0e4da; padding:6px 18px; border-radius:30px;">Rohini Court</span>
+                    <span style="background:#f0e4da; padding:6px 18px; border-radius:30px;">Saket Court</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== JUDGMENTS SECTION - 8 CARDS ========== -->
+<section id="judgments" class="judgments-section">
+    <div class="container">
+        <h2 class="section-title">📜 Court Judgments & Orders</h2>
+        <p class="section-subtitle">Downloadable PDF judgments obtained by Adv. Ram Raghvendra Kumar</p>
+        
+        <div class="judgments-grid">
+            <!-- Card 1 -->
+            <div class="judgment-card">
+                <div class="judgment-header">
+                    <i class="fas fa-car-crash"></i>
+                    <h3>MACT Compensation Case</h3>
+                </div>
+                <div class="judgment-body">
+                    <div class="judgment-detail"><i class="fas fa-gavel"></i> <strong>Case:</strong> MACP No. 452/2023</div>
+                    <div class="judgment-detail"><i class="fas fa-building"></i> <strong>Court:</strong> Rohini District Court</div>
+                    <div class="judgment-result"><i class="fas fa-trophy"></i> <span>₹25,00,000 Compensation Awarded</span></div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/judgment-1.pdf')"><i class="fas fa-file-pdf"></i> View PDF</button>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="judgment-card">
+                <div class="judgment-header">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>Consumer Complaint</h3>
+                </div>
+                <div class="judgment-body">
+                    <div class="judgment-detail"><i class="fas fa-gavel"></i> <strong>Case:</strong> CC No. 128/2023</div>
+                    <div class="judgment-detail"><i class="fas fa-building"></i> <strong>Court:</strong> District Consumer Forum</div>
+                    <div class="judgment-result"><i class="fas fa-trophy"></i> <span>₹15,00,000 + 9% Interest</span></div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/judgment-2.pdf')"><i class="fas fa-file-pdf"></i> View PDF</button>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="judgment-card">
+                <div class="judgment-header">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Property Dispute</h3>
+                </div>
+                <div class="judgment-body">
+                    <div class="judgment-detail"><i class="fas fa-gavel"></i> <strong>Case:</strong> CS No. 567/2022</div>
+                    <div class="judgment-detail"><i class="fas fa-building"></i> <strong>Court:</strong> Tis Hazari Court</div>
+                    <div class="judgment-result"><i class="fas fa-trophy"></i> <span>Possession + ₹8,00,000 Damages</span></div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/judgment-3.pdf')"><i class="fas fa-file-pdf"></i> View PDF</button>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="judgment-card">
+                <div class="judgment-header">
+                    <i class="fas fa-gavel"></i>
+                    <h3>Supreme Court SLP</h3>
+                </div>
+                <div class="judgment-body">
+                    <div class="judgment-detail"><i class="fas fa-gavel"></i> <strong>Case:</strong> SLP(C) No. 3421/2023</div>
+                    <div class="judgment-detail"><i class="fas fa-building"></i> <strong>Court:</strong> Supreme Court of India</div>
+                    <div class="judgment-result"><i class="fas fa-trophy"></i> <span>Special Leave Granted</span></div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/judgment-4.pdf')"><i class="fas fa-file-pdf"></i> View PDF</button>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="judgment-card">
+                <div class="judgment-header">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Wrongful Termination</h3>
+                </div>
+                <div class="judgment-body">
+                    <div class="judgment-detail"><i class="fas fa-gavel"></i> <strong>Case:</strong> LIR No. 89/2023</div>
+                    <div class="judgment-detail"><i class="fas fa-building"></i> <strong>Court:</strong> Labour Court, Delhi</div>
+                    <div class="judgment-result"><i class="fas fa-trophy"></i> <span>Reinstatement + Back Wages</span></div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/judgment-5.pdf')"><i class="fas fa-file-pdf"></i> View PDF</button>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="judgment-card">
+                <div class="judgment-header">
+                    <i class="fas fa-scale-balanced"></i>
+                    <h3>Arbitration Award</h3>
+                </div>
+                <div class="judgment-body">
+                    <div class="judgment-detail"><i class="fas fa-gavel"></i> <strong>Case:</strong> Arb. No. 234/2023</div>
+                    <div class="judgment-detail"><i class="fas fa-building"></i> <strong>Court:</strong> Delhi High Court</div>
+                    <div class="judgment-result"><i class="fas fa-trophy"></i> <span>₹42,00,000 Award Confirmed</span></div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/judgment-6.pdf')"><i class="fas fa-file-pdf"></i> View PDF</button>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="judgment-card">
+                <div class="judgment-header">
+                    <i class="fas fa-file-invoice"></i>
+                    <h3>Recovery Suit</h3>
+                </div>
+                <div class="judgment-body">
+                    <div class="judgment-detail"><i class="fas fa-gavel"></i> <strong>Case:</strong> CS No. 789/2023</div>
+                    <div class="judgment-detail"><i class="fas fa-building"></i> <strong>Court:</strong> Rohini District Court</div>
+                    <div class="judgment-result"><i class="fas fa-trophy"></i> <span>₹18,00,000 Recovered</span></div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/judgment-7.pdf')"><i class="fas fa-file-pdf"></i> View PDF</button>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="judgment-card">
+                <div class="judgment-header">
+                    <i class="fas fa-building"></i>
+                    <h3>Rent Control Case</h3>
+                </div>
+                <div class="judgment-body">
+                    <div class="judgment-detail"><i class="fas fa-gavel"></i> <strong>Case:</strong> RCT No. 45/2023</div>
+                    <div class="judgment-detail"><i class="fas fa-building"></i> <strong>Court:</strong> Rent Controller, Delhi</div>
+                    <div class="judgment-result"><i class="fas fa-trophy"></i> <span>Eviction Order Passed</span></div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/judgment-8.pdf')"><i class="fas fa-file-pdf"></i> View PDF</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PDF Modal -->
+<div id="pdfModal" class="pdf-modal">
+    <div class="pdf-modal-content">
+        <span class="close-pdf" onclick="closePDF()">&times;</span>
+        <iframe id="pdfFrame" src=""></iframe>
+    </div>
+</div>
+
+<!-- Successful Cases Section - Brief -->
+<section id="success-cases" class="cases-section">
+    <div class="container">
+        <h2 class="section-title">🏆 Case Highlights</h2>
+        <div class="cases-grid">
+            <div class="case-card">
+                <div class="case-header"><i class="fas fa-car-crash"></i><h3>MACT Case</h3></div>
+                <div class="case-body"><p><strong>Result:</strong> ₹25,00,000 Compensation</p><span class="case-tag">WON</span></div>
+            </div>
+            <div class="case-card">
+                <div class="case-header"><i class="fas fa-shopping-cart"></i><h3>Consumer Case</h3></div>
+                <div class="case-body"><p><strong>Result:</strong> ₹15,00,000 + Interest</p><span class="case-tag">WON</span></div>
+            </div>
+            <div class="case-card">
+                <div class="case-header"><i class="fas fa-handshake"></i><h3>Property Case</h3></div>
+                <div class="case-body"><p><strong>Result:</strong> Possession + Damages</p><span class="case-tag">WON</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="practice">
+    <div class="container">
+        <h2 class="section-title">Core Practice Areas</h2>
+        <div class="practice-grid">
+            <div class="practice-card"><i class="fas fa-car-crash practice-icon"></i><h3>MACT</h3><ul><li><i class="fas fa-angle-right"></i> Accident Claims</li><li><i class="fas fa-angle-right"></i> Compensation</li></ul></div>
+            <div class="practice-card"><i class="fas fa-shopping-cart practice-icon"></i><h3>Consumer</h3><ul><li><i class="fas fa-angle-right"></i> Deficiency in Services</li><li><i class="fas fa-angle-right"></i> Medical Negligence</li></ul></div>
+            <div class="practice-card"><i class="fas fa-handshake practice-icon"></i><h3>Civil Litigation</h3><ul><li><i class="fas fa-angle-right"></i> Property Disputes</li><li><i class="fas fa-angle-right"></i> Recovery Suits</li></ul></div>
+            <div class="practice-card"><i class="fas fa-briefcase practice-icon"></i><h3>Labour Law</h3><ul><li><i class="fas fa-angle-right"></i> Termination</li><li><i class="fas fa-angle-right"></i> Industrial Disputes</li></ul></div>
+            <div class="practice-card"><i class="fas fa-scale-balanced practice-icon"></i><h3>Arbitration</h3><ul><li><i class="fas fa-angle-right"></i> Commercial Arbitration</li><li><i class="fas fa-angle-right"></i> Award Execution</li></ul></div>
+            <div class="practice-card"><i class="fas fa-gavel practice-icon"></i><h3>Supreme Court</h3><ul><li><i class="fas fa-angle-right"></i> Civil SLPs</li><li><i class="fas fa-angle-right"></i> Criminal SLPs</li></ul></div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container about-wrapper">
+        <div class="about-flex">
+            <div><span class="hero-badge" style="background:#7a36171a;">RAM RAGHVENDRA & ASSOCIATES | Est. 2008</span>
+                <h2 style="font-family: 'Cormorant Garamond'; font-size: 2.5rem;">Advocate Ram Raghvendra Kumar</h2>
+                <p><strong>18+ years</strong> experience across Delhi District Courts & Supreme Court of India.</p>
+                <div style="display:flex; gap:20px; margin-top:20px;"><div><strong>500+</strong><br>Cases Won</div><div><strong>18+</strong><br>Years</div><div><strong>1000+</strong><br>Clients</div></div>
+            </div>
+            <div class="exp-timeline"><h3>Professional Journey</h3>
+                <div class="exp-item"><div class="exp-year">2008-2011</div><div>Junior Advocate</div></div>
+                <div class="exp-item"><div class="exp-year">2011-Present</div><div>Founder, RAM RAGHVENDRA & ASSOCIATES</div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="counter-section">
+    <div class="container counter-grid">
+        <div><h2>500+</h2><p>Cases Won</p></div>
+        <div><h2>18+</h2><p>Years Exp</p></div>
+        <div><h2>1000+</h2><p>Happy Clients</p></div>
+        <div><h2>98%</h2><p>Success Rate</p></div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="container contact-grid">
+        <div class="contact-info-box">
+            <h2>RAM RAGHVENDRA & ASSOCIATES</h2>
+            <p><i class="fas fa-map-marker-alt"></i> Chamber No. 906, Rohini District Court, Delhi-110085</p>
+            <p><i class="fas fa-phone-alt"></i> +91 9718037056 / 09718037056</p>
+            <p><i class="fas fa-envelope"></i> ramraghvendrar@gmail.com</p>
+        </div>
+        <div><form class="contact-form"><input type="text" placeholder="Name"><input type="email" placeholder="Email"><textarea rows="4" placeholder="Message"></textarea><button class="submit-btn">Send</button></form></div>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-grid">
+        <div><h3>RAM RAGHVENDRA & ASSOCIATES</h3><p>Adv. Ram Raghvendra Kumar</p></div>
+        <div><h3>Quick Links</h3><a href="#home">Home</a><br><a href="#judgments">Judgments</a><br><a href="#contact">Contact</a></div>
+        <div><h3>Contact</h3><p>+91 9718037056</p><p>Chamber 906, Rohini Court</p></div>
+    </div>
+    <div class="container" style="text-align:center;">© 2026 RAM RAGHVENDRA & ASSOCIATES</div>
+</footer>
+
+<a href="https://wa.me/919718037056" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i> Chat</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 800, once: true });
+    
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const mobileNav = document.getElementById('mobileNav');
+    const closeNav = document.getElementById('closeNav');
+    hamburgerBtn.onclick = () => { mobileNav.classList.add('active'); document.body.style.overflow = 'hidden'; };
+    closeNav.onclick = () => { mobileNav.classList.remove('active'); document.body.style.overflow = ''; };
+    
+    function openPDF(pdfPath) {
+        document.getElementById('pdfFrame').src = pdfPath;
+        document.getElementById('pdfModal').style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+    function closePDF() {
+        document.getElementById('pdfFrame').src = '';
+        document.getElementById('pdfModal').style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+    window.onclick = (e) => { if(e.target === document.getElementById('pdfModal')) closePDF(); };
+    window.openPDF = openPDF;
+    window.closePDF = closePDF;
+</script>
+</body>
+</html>
+<!-----DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="RAM RAGHVENDRA & ASSOCIATES - Advocate Ram Raghvendra Kumar - 18+ Years Experience | Supreme Court of India | Delhi District Courts">
+    <meta name="keywords" content="RAM RAGHVENDRA & ASSOCIATES, Advocate in Delhi, Supreme Court Lawyer, MACT Lawyer, Rohini Court Lawyer">
+    <meta name="author" content="RAM RAGHVENDRA & ASSOCIATES">
+    <title>RAM RAGHVENDRA & ASSOCIATES | Adv. Ram Raghvendra Kumar | 18+ Years</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #ffffff;
+            color: #1a2a3a;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+        .top-bar {
+            background: #0f1e28;
+            color: #e8d9cc;
+            padding: 12px 0;
+            font-size: 0.85rem;
+        }
+        .top-bar-flex {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .top-bar-left span, .top-bar-right span {
+            margin-right: 28px;
+        }
+        .top-bar-left i, .top-bar-right i {
+            margin-right: 8px;
+            color: #c47a44;
+        }
+        .navbar {
+            background: #ffffff;
+            box-shadow: 0 8px 35px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 15px 0;
+        }
+        .nav-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .logo-text h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #7a3617;
+        }
+        .logo-text p {
+            font-size: 0.62rem;
+            color: #6a7c8a;
+            font-weight: 600;
+        }
+        .nav-links {
+            display: flex;
+            gap: 35px;
+            list-style: none;
+        }
+        .nav-links a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #2c3e4e;
+            transition: 0.3s;
+            font-size: 0.9rem;
+        }
+        .nav-links a:hover {
+            color: #b45a2b;
+        }
+        .nav-btn {
+            background: #7a3617;
+            color: white !important;
+            padding: 10px 28px;
+            border-radius: 50px;
+        }
+        .hamburger {
+            display: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: #7a3617;
+            background: none;
+            border: none;
+        }
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: #0f1e28;
+            z-index: 2000;
+            padding: 80px 30px;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .mobile-nav.active {
+            display: flex;
+        }
+        .mobile-nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: 600;
+            padding: 12px 0;
+            border-bottom: 1px solid #2a4a5a;
+        }
+        .mobile-nav .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 32px;
+            color: white;
+            cursor: pointer;
+        }
+        .mobile-nav .mobile-nav-btn {
+            background: #7a3617;
+            display: inline-block;
+            text-align: center;
+            padding: 12px;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+        .hero {
+            background: linear-gradient(125deg, #fdf8f2 0%, #f5ebe1 100%);
+            padding: 90px 0;
+        }
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: rgba(122,54,23,0.12);
+            color: #7a3617;
+            padding: 6px 20px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.8rem;
+            margin-bottom: 25px;
+        }
+        .hero h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.15;
+            color: #1e2f3c;
+            margin-bottom: 20px;
+        }
+        .hero-highlight {
+            color: #7a3617;
+            border-bottom: 3px solid #c47a44;
+            display: inline-block;
+        }
+        .hero-stats {
+            display: flex;
+            gap: 40px;
+            margin: 35px 0;
+            flex-wrap: wrap;
+        }
+        .stat-number {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #7a3617;
+        }
+        .hero-card {
+            background: white;
+            border-radius: 30px;
+            padding: 40px;
+            box-shadow: 0 35px 55px rgba(0,0,0,0.08);
+        }
+        section {
+            padding: 90px 0;
+        }
+        .section-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 18px;
+            color: #1e2f3c;
+        }
+        .section-subtitle {
+            text-align: center;
+            color: #6a7c8a;
+            max-width: 800px;
+            margin: 0 auto 55px auto;
+            font-size: 1.05rem;
+        }
+        
+        /* ========== NEW JUDGMENTS SECTION STYLES ========== */
+        .judgments-section {
+            background: linear-gradient(135deg, #fdf8f2 0%, #f5ebe1 100%);
+        }
+        .judgments-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .judgments-header h2 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.8rem;
+            color: #1e2f3c;
+            margin-bottom: 15px;
+        }
+        .judgments-header p {
+            color: #6a7c8a;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .judgments-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        .judgment-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(122,54,23,0.1);
+        }
+        .judgment-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            border-color: #c47a44;
+        }
+        .judgment-card-header {
+            background: linear-gradient(135deg, #7a3617, #a54d24);
+            color: white;
+            padding: 20px 25px;
+            position: relative;
+        }
+        .judgment-card-header .case-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .judgment-card-header h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+        .judgment-card-header .case-year {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            background: rgba(255,255,255,0.2);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .judgment-card-body {
+            padding: 25px;
+        }
+        .judgment-detail {
+            margin-bottom: 15px;
+            padding-bottom: 12px;
+            border-bottom: 1px dashed #eee5dd;
+        }
+        .judgment-detail i {
+            width: 30px;
+            color: #7a3617;
+        }
+        .judgment-detail strong {
+            color: #1e2f3c;
+        }
+        .judgment-result {
+            background: #e8f5e9;
+            padding: 12px 15px;
+            border-radius: 12px;
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .judgment-result i {
+            color: #2e7d32;
+            font-size: 1.2rem;
+        }
+        .judgment-result span {
+            color: #2e7d32;
+            font-weight: 700;
+        }
+        .pdf-view-btn {
+            width: 100%;
+            background: #7a3617;
+            color: white;
+            border: none;
+            padding: 14px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+        .pdf-view-btn:hover {
+            background: #a54d24;
+            transform: scale(1.02);
+        }
+        .pdf-view-btn i {
+            font-size: 1.2rem;
+        }
+        
+        .cases-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        .case-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+            border: 1px solid #eee5dd;
+        }
+        .case-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+        }
+        .case-header {
+            background: linear-gradient(135deg, #7a3617, #a54d24);
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .case-header i {
+            font-size: 2.5rem;
+        }
+        .case-header h3 {
+            font-size: 1.3rem;
+            margin: 0;
+        }
+        .case-body {
+            padding: 20px;
+        }
+        .case-body p {
+            margin: 8px 0;
+            color: #4a6272;
+        }
+        .case-body strong {
+            color: #1e2f3c;
+        }
+        .case-tag {
+            display: inline-block;
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-top: 12px;
+        }
+        .practice-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 35px;
+        }
+        .practice-card {
+            background: white;
+            padding: 35px 28px;
+            border-radius: 25px;
+            transition: all 0.4s;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+            border: 1px solid #eee5dd;
+        }
+        .practice-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+            border-color: #c47a44;
+        }
+        .practice-icon {
+            font-size: 2.8rem;
+            color: #7a3617;
+            margin-bottom: 20px;
+        }
+        .practice-card h3 {
+            font-size: 1.45rem;
+            margin-bottom: 18px;
+            font-weight: 700;
+        }
+        .practice-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .practice-card li {
+            padding: 8px 0;
+            color: #4a6272;
+            font-size: 0.92rem;
+            border-bottom: 1px dashed #eee5dd;
+        }
+        .practice-card li i {
+            margin-right: 12px;
+            color: #c47a44;
+        }
+        .about-wrapper {
+            background: linear-gradient(135deg, #fdf9f5 0%, #faf3ea 100%);
+            border-radius: 50px;
+            padding: 65px;
+        }
+        .about-flex {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 55px;
+        }
+        .exp-timeline {
+            border-left: 3px solid #c47a44;
+            padding-left: 30px;
+        }
+        .exp-item {
+            margin-bottom: 28px;
+        }
+        .exp-year {
+            font-weight: 800;
+            color: #7a3617;
+            margin-bottom: 6px;
+        }
+        .counter-section {
+            background: #0f1e28;
+            color: white;
+            text-align: center;
+            padding: 70px 0;
+        }
+        .counter-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+        }
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 35px;
+        }
+        .testimonial-card {
+            background: #fdf9f5;
+            padding: 35px;
+            border-radius: 28px;
+            position: relative;
+        }
+        .testimonial-card .quote-icon {
+            font-size: 2.5rem;
+            color: #c47a4433;
+            position: absolute;
+            top: 20px;
+            left: 25px;
+        }
+        .stars {
+            color: #ffb802;
+            margin: 15px 0 10px;
+        }
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+        }
+        .faq-item {
+            background: white;
+            padding: 28px;
+            border-radius: 22px;
+            border: 1px solid #eee5dd;
+        }
+        .faq-question {
+            font-weight: 800;
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            color: #1e2f3c;
+        }
+        .faq-question i {
+            color: #7a3617;
+            margin-right: 12px;
+        }
+        .contact-section {
+            background: #0f1e28;
+            color: white;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 55px;
+        }
+        .contact-info-box {
+            background: rgba(255,255,255,0.06);
+            padding: 35px;
+            border-radius: 28px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 16px 20px;
+            margin-bottom: 18px;
+            border-radius: 50px;
+            border: none;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .contact-form textarea {
+            border-radius: 25px;
+        }
+        .submit-btn {
+            background: #c47a44;
+            color: white;
+            padding: 14px 35px;
+            border: none;
+            border-radius: 50px;
+            font-weight: 700;
+            cursor: pointer;
+            width: 100%;
+        }
+        footer {
+            background: #09131a;
+            padding: 60px 0 30px;
+            color: #9aabb6;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+        .footer-grid h3 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        .footer-grid a {
+            color: #9aabb6;
+            text-decoration: none;
+            line-height: 2;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: white;
+            padding: 14px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        /* PDF Modal Styles */
+        .pdf-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.95);
+            z-index: 10000;
+            overflow: auto;
+        }
+        .pdf-modal-content {
+            position: relative;
+            width: 90%;
+            height: 90%;
+            margin: 2% auto;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        .pdf-modal-content iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .close-pdf {
+            position: absolute;
+            right: 20px;
+            top: -45px;
+            font-size: 40px;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .close-pdf:hover {
+            color: #c47a44;
+        }
+        .pdf-note {
+            text-align: center;
+            margin-top: 15px;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 1000px) {
+            .container { padding: 0 25px; }
+            .hero-grid, .about-flex, .contact-grid, .testimonial-grid, .counter-grid, .faq-grid, .footer-grid, .cases-grid, .judgments-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero h1 { font-size: 2.5rem; }
+            .nav-links { display: none; }
+            .hamburger { display: block; }
+        }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+            .section-title { font-size: 2rem; }
+            .about-wrapper { padding: 30px; }
+            .pdf-modal-content { width: 95%; height: 85%; margin: 10% auto; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <div class="container top-bar-flex">
+        <div class="top-bar-left">
+            <span><i class="fas fa-map-marker-alt"></i> Chamber No. 906, Rohini District Court, Sector 14, Rohini, Delhi - 110085</span>
+            <span><i class="fas fa-gavel"></i> Supreme Court of India | Delhi District Courts</span>
+        </div>
+        <div class="top-bar-right">
+            <span><i class="fas fa-phone-alt"></i> +91 9718037056 / 09718037056</span>
+            <span><i class="fas fa-envelope"></i> ramraghvendrar@gmail.com</span>
+            <span><i class="fas fa-clock"></i> Mon-Sat: 10AM - 6PM</span>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar">
+    <div class="container nav-flex">
+        <div class="logo-text">
+            <h1>RAM RAGHVENDRA & ASSOCIATES</h1>
+            <p>ADVOCATE | SUPREME COURT OF INDIA | 18+ YEARS</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#judgments">Court Judgments</a></li>
+            <li><a href="#success-cases">Successful Cases</a></li>
+            <li><a href="#practice">Practice Areas</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact" class="nav-btn">Free Consultation</a></li>
+        </ul>
+        <button class="hamburger" id="hamburgerBtn"><i class="fas fa-bars"></i></button>
+    </div>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+    <div class="close-btn" id="closeNav"><i class="fas fa-times"></i></div>
+    <a href="#home">🏠 Home</a>
+    <a href="#judgments">📜 Court Judgments</a>
+    <a href="#success-cases">🏆 Successful Cases</a>
+    <a href="#practice">⚖️ Practice Areas</a>
+    <a href="#about">👨‍⚖️ About</a>
+    <a href="#contact" class="mobile-nav-btn">📞 Free Consultation</a>
+</div>
+
+<section id="home" class="hero">
+    <div class="container hero-grid">
+        <div data-aos="fade-right">
+            <span class="hero-badge"><i class="fas fa-star-of-life"></i> RAM RAGHVENDRA & ASSOCIATES | 18+ YEARS (2008 - 2026)</span>
+            <h1>Your Trusted <span class="hero-highlight">Legal Partner</span> in Delhi Courts & <span class="hero-highlight">Supreme Court</span> of India</h1>
+            <p style="font-size: 1.08rem; line-height: 1.7;">RAM RAGHVENDRA & ASSOCIATES provides strategic, ethical & result-driven representation in MACT, Consumer, Civil, Labour, Arbitration and Special Leave Petitions.</p>
+            <div class="hero-stats">
+                <div class="stat-box"><div class="stat-number">500+</div><div>Cases Won</div></div>
+                <div class="stat-box"><div class="stat-number">18+</div><div>Years Experience</div></div>
+                <div class="stat-box"><div class="stat-number">1000+</div><div>Happy Clients</div></div>
+                <div class="stat-box"><div class="stat-number">5+</div><div>Courts</div></div>
+            </div>
+            <div style="display: flex; gap: 18px; flex-wrap: wrap;">
+                <a href="#contact" class="nav-btn" style="background:#7a3617; color:white;">📅 Free Consultation</a>
+                <a href="tel:9718037056" style="border:2px solid #7a3617; padding:12px 30px; border-radius:50px; text-decoration:none; color:#7a3617; font-weight:600;">📞 Call Now</a>
+            </div>
+        </div>
+        <div data-aos="fade-left">
+            <div class="hero-card">
+                <h3 style="margin-bottom: 25px;"><i class="fas fa-id-card"></i> About RAM RAGHVENDRA & ASSOCIATES</h3>
+                <p><strong>🏛️ Firm Name:</strong> RAM RAGHVENDRA & ASSOCIATES</p>
+                <p><strong>👨‍⚖️ Founder:</strong> Adv. Ram Raghvendra Kumar</p>
+                <p><strong>📜 Enrolment No.:</strong> D-627/2008</p>
+                <p><strong>🏛️ SCBA No.:</strong> 2334/K/1035/2011</p>
+                <p><strong>⚖️ Rohini Court Bar:</strong> R-849</p>
+                <p><strong>🏢 Chamber Address:</strong> Chamber No. 906, Rohini District Court, Sector 14, Rohini, Delhi - 110085</p>
+                <hr style="margin: 20px 0;">
+                <p><i class="fas fa-phone-alt"></i> <strong>+91 9718037056 / 09718037056</strong></p>
+                <p><i class="fas fa-envelope"></i> <strong>ramraghvendrar@gmail.com</strong></p>
+                <div style="margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+                    <span style="background:#f0e4da; padding:6px 18px; border-radius:30px;">Supreme Court</span>
+                    <span style="background:#f0e4da; padding:6px 18px; border-radius:30px;">Tis Hazari</span>
+                    <span style="background:#f0e4da; padding:6px 18px; border-radius:30px;">Rohini Court</span>
+                    <span style="background:#f0e4da; padding:6px 18px; border-radius:30px;">Saket Court</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="judgments" class="judgments-section">
+    <div class="container">
+        <div class="judgments-header" data-aos="fade-up">
+            <h2><i class="fas fa-file-pdf"></i> Court Judgments & Orders</h2>
+            <p>Downloadable PDFs of landmark judgments obtained by Adv. Ram Raghvendra Kumar</p>
+        </div>
+        
+        <div class="judgments-grid">
+          
+            <div class="judgment-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="judgment-card-header">
+                    <div class="case-icon"><i class="fas fa-car-crash"></i></div>
+                    <h3>MACT Compensation Case</h3>
+                    <span class="case-year">2024</span>
+                </div>
+                <div class="judgment-card-body">
+                    <div class="judgment-detail">
+                        <i class="fas fa-gavel"></i> <strong>Case No.:</strong> MACP No. 452/2023
+                    </div>
+                    <div class="judgment-detail">
+                        <i class="fas fa-building"></i> <strong>Court:</strong> Rohini District Court, Delhi
+                    </div>
+                    <div class="judgment-detail">
+                        <i class="fas fa-calendar"></i> <strong>Judgment Date:</strong> 15 March 2024
+                    </div>
+                    <div class="judgment-result">
+                        <i class="fas fa-trophy"></i>
+                        <span>⚖️ ₹25,00,000 Compensation awarded to claimants</span>
+                    </div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/mact-case.pdf')">
+                        <i class="fas fa-file-pdf"></i> View Full Judgment PDF
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="judgment-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="judgment-card-header">
+                    <div class="case-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3>Consumer Complaint - Builder</h3>
+                    <span class="case-year">2024</span>
+                </div>
+                <div class="judgment-card-body">
+                    <div class="judgment-detail">
+                        <i class="fas fa-gavel"></i> <strong>Case No.:</strong> CC No. 128/2023
+                    </div>
+                    <div class="judgment-detail">
+                        <i class="fas fa-building"></i> <strong>Court:</strong> District Consumer Forum, Delhi
+                    </div>
+                    <div class="judgment-detail">
+                        <i class="fas fa-calendar"></i> <strong>Judgment Date:</strong> 10 January 2024
+                    </div>
+                    <div class="judgment-result">
+                        <i class="fas fa-trophy"></i>
+                        <span>⚖️ ₹15,00,000 with 9% interest awarded</span>
+                    </div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/consumer-case.pdf')">
+                        <i class="fas fa-file-pdf"></i> View Full Judgment PDF
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+            </div>
+           
+            <div class="judgment-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="judgment-card-header">
+                    <div class="case-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Property Dispute Resolution</h3>
+                    <span class="case-year">2024</span>
+                </div>
+                <div class="judgment-card-body">
+                    <div class="judgment-detail">
+                        <i class="fas fa-gavel"></i> <strong>Case No.:</strong> CS No. 567/2022
+                    </div>
+                    <div class="judgment-detail">
+                        <i class="fas fa-building"></i> <strong>Court:</strong> Tis Hazari Court, Delhi
+                    </div>
+                    <div class="judgment-detail">
+                        <i class="fas fa-calendar"></i> <strong>Judgment Date:</strong> 20 February 2024
+                    </div>
+                    <div class="judgment-result">
+                        <i class="fas fa-trophy"></i>
+                        <span>⚖️ Possession + Damages ₹8,00,000 awarded</span>
+                    </div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/property-case.pdf')">
+                        <i class="fas fa-file-pdf"></i> View Full Judgment PDF
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+            </div>
+            
+      
+            <div class="judgment-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="judgment-card-header">
+                    <div class="case-icon"><i class="fas fa-gavel"></i></div>
+                    <h3>Supreme Court - SLP (Civil)</h3>
+                    <span class="case-year">2024</span>
+                </div>
+                <div class="judgment-card-body">
+                    <div class="judgment-detail">
+                        <i class="fas fa-gavel"></i> <strong>Case No.:</strong> SLP(C) No. 3421/2023
+                    </div>
+                    <div class="judgment-detail">
+                        <i class="fas fa-building"></i> <strong>Court:</strong> Supreme Court of India
+                    </div>
+                    <div class="judgment-detail">
+                        <i class="fas fa-calendar"></i> <strong>Order Date:</strong> 5 December 2024
+                    </div>
+                    <div class="judgment-result">
+                        <i class="fas fa-trophy"></i>
+                        <span>⚖️ Special Leave granted by Hon'ble Supreme Court</span>
+                    </div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/supreme-court-slp.pdf')">
+                        <i class="fas fa-file-pdf"></i> View Full Judgment PDF
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+            </div>
+            
+      
+            <div class="judgment-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="judgment-card-header">
+                    <div class="case-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>Wrongful Termination Case</h3>
+                    <span class="case-year">2024</span>
+                </div>
+                <div class="judgment-card-body">
+                    <div class="judgment-detail">
+                        <i class="fas fa-gavel"></i> <strong>Case No.:</strong> LIR No. 89/2023
+                    </div>
+                    <div class="judgment-detail">
+                        <i class="fas fa-building"></i> <strong>Court:</strong> Labour Court, Delhi
+                    </div>
+                    <div class="judgment-detail">
+                        <i class="fas fa-calendar"></i> <strong>Judgment Date:</strong> 18 March 2024
+                    </div>
+                    <div class="judgment-result">
+                        <i class="fas fa-trophy"></i>
+                        <span>⚖️ Reinstatement + full back wages awarded</span>
+                    </div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/labour-case.pdf')">
+                        <i class="fas fa-file-pdf"></i> View Full Judgment PDF
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="judgment-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="judgment-card-header">
+                    <div class="case-icon"><i class="fas fa-scale-balanced"></i></div>
+                    <h3>Arbitration Award</h3>
+                    <span class="case-year">2024</span>
+                </div>
+                <div class="judgment-card-body">
+                    <div class="judgment-detail">
+                        <i class="fas fa-gavel"></i> <strong>Case No.:</strong> Arb. Petition No. 234/2023
+                    </div>
+                    <div class="judgment-detail">
+                        <i class="fas fa-building"></i> <strong>Court:</strong> Delhi High Court
+                    </div>
+                    <div class="judgment-detail">
+                        <i class="fas fa-calendar"></i> <strong>Award Date:</strong> 10 April 2024
+                    </div>
+                    <div class="judgment-result">
+                        <i class="fas fa-trophy"></i>
+                        <span>⚖️ Award of ₹42,00,000 confirmed by Court</span>
+                    </div>
+                    <button class="pdf-view-btn" onclick="openPDF('judgments/arbitration-award.pdf')">
+                        <i class="fas fa-file-pdf"></i> View Full Judgment PDF
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="pdfModal" class="pdf-modal">
+    <div class="pdf-modal-content">
+        <span class="close-pdf" onclick="closePDF()">&times;</span>
+        <iframe id="pdfFrame" src=""></iframe>
+    </div>
+    <div class="pdf-note">
+        <i class="fas fa-info-circle"></i> Court Judgment PDF - Use zoom for better readability | <i class="fas fa-download"></i> You can download using browser's download option
+    </div>
+</div>
+
+<section id="success-cases" class="cases-section">
+    <div class="container">
+        <h2 class="section-title">🏆 Case Highlights</h2>
+        <p class="section-subtitle">Brief overview of landmark victories won by Adv. Ram Raghvendra Kumar</p>
+        
+        <div class="cases-grid">
+            <div class="case-card">
+                <div class="case-header">
+                    <i class="fas fa-car-crash"></i>
+                    <h3>MACT Compensation Case</h3>
+                </div>
+                <div class="case-body">
+                    <p><strong>Case No.:</strong> MACP No. 452/2023</p>
+                    <p><strong>Court:</strong> Rohini District Court, Delhi</p>
+                    <p><strong>Result:</strong> ₹25,00,000 Compensation awarded</p>
+                    <span class="case-tag"><i class="fas fa-trophy"></i> FULL COMPENSATION WON</span>
+                </div>
+            </div>
+            <div class="case-card">
+                <div class="case-header">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>Consumer Complaint - Builder</h3>
+                </div>
+                <div class="case-body">
+                    <p><strong>Case No.:</strong> CC No. 128/2023</p>
+                    <p><strong>Court:</strong> District Consumer Forum, Delhi</p>
+                    <p><strong>Result:</strong> ₹15,00,000 with 9% interest</p>
+                    <span class="case-tag"><i class="fas fa-trophy"></i> DECIDED IN FAVOUR</span>
+                </div>
+            </div>
+            <div class="case-card">
+                <div class="case-header">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Property Dispute Resolution</h3>
+                </div>
+                <div class="case-body">
+                    <p><strong>Case No.:</strong> CS No. 567/2022</p>
+                    <p><strong>Court:</strong> Tis Hazari Court, Delhi</p>
+                    <p><strong>Result:</strong> Possession + Damages ₹8,00,000</p>
+                    <span class="case-tag"><i class="fas fa-trophy"></i> DECREE IN FAVOUR</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="practice">
+    <div class="container">
+        <h2 class="section-title">Core Practice Areas</h2>
+        <div class="practice-grid">
+            <div class="practice-card"><i class="fas fa-car-crash practice-icon"></i><h3>Motor Accident Claims (MACT)</h3><ul><li><i class="fas fa-angle-right"></i> Accident Compensation Claims</li><li><i class="fas fa-angle-right"></i> Third Party & Own Damage</li><li><i class="fas fa-angle-right"></i> Hit & Run Cases</li></ul></div>
+            <div class="practice-card"><i class="fas fa-shopping-cart practice-icon"></i><h3>Consumer Protection</h3><ul><li><i class="fas fa-angle-right"></i> Deficiency in Services</li><li><i class="fas fa-angle-right"></i> Medical Negligence</li><li><i class="fas fa-angle-right"></i> Housing & Banking Disputes</li></ul></div>
+            <div class="practice-card"><i class="fas fa-handshake practice-icon"></i><h3>Civil Litigation</h3><ul><li><i class="fas fa-angle-right"></i> Property Disputes</li><li><i class="fas fa-angle-right"></i> Recovery Suits</li><li><i class="fas fa-angle-right"></i> Contract Enforcement</li></ul></div>
+            <div class="practice-card"><i class="fas fa-briefcase practice-icon"></i><h3>Labour & Service</h3><ul><li><i class="fas fa-angle-right"></i> Wrongful Termination</li><li><i class="fas fa-angle-right"></i> Industrial Disputes</li><li><i class="fas fa-angle-right"></i> Workmen Compensation</li></ul></div>
+            <div class="practice-card"><i class="fas fa-scale-balanced practice-icon"></i><h3>Arbitration</h3><ul><li><i class="fas fa-angle-right"></i> Commercial Arbitration</li><li><i class="fas fa-angle-right"></i> Domestic Arbitration</li><li><i class="fas fa-angle-right"></i> Execution of Awards</li></ul></div>
+            <div class="practice-card"><i class="fas fa-gavel practice-icon"></i><h3>Supreme Court (SLP)</h3><ul><li><i class="fas fa-angle-right"></i> Criminal & Civil SLPs</li><li><i class="fas fa-angle-right"></i> Review Petitions</li><li><i class="fas fa-angle-right"></i> Transfer Petitions</li></ul></div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container about-wrapper">
+        <div class="about-flex">
+            <div data-aos="fade-right">
+                <span class="hero-badge" style="background:#7a36171a; display:inline-block; margin-bottom:15px;"><i class="fas fa-gavel"></i> RAM RAGHVENDRA & ASSOCIATES | Est. 2008</span>
+                <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem;">Advocate Ram Raghvendra Kumar</h2>
+                <h3 style="font-size: 1.1rem; color:#7a3617; margin-bottom:15px;">Founder, RAM RAGHVENDRA & ASSOCIATES</h3>
+                <p style="margin: 22px 0; line-height: 1.8;"><strong>RAM RAGHVENDRA & ASSOCIATES</strong>, led by Advocate Ram Raghvendra Kumar, has been practicing since <strong>2008</strong> across <strong>District Courts of Delhi</strong> – Rohini, Tis Hazari, Saket, Patiala House – and <strong>Supreme Court of India</strong>. With <strong>18+ years</strong> of experience, the firm specializes in <strong>MACT, Consumer, Civil, Labour, Arbitration & SLPs</strong>.</p>
+                <div style="margin: 30px 0; display: flex; gap: 20px; flex-wrap: wrap; background: white; padding: 22px; border-radius: 20px;">
+                    <div><i class="fas fa-balance-scale" style="color:#7a3617; font-size:1.8rem;"></i><br><strong>500+</strong><br>Cases Won</div>
+                    <div><i class="fas fa-calendar-alt" style="color:#7a3617; font-size:1.8rem;"></i><br><strong>18+</strong><br>Years</div>
+                    <div><i class="fas fa-smile" style="color:#7a3617; font-size:1.8rem;"></i><br><strong>1000+</strong><br>Clients</div>
+                </div>
+                <a href="#contact" class="nav-btn" style="background:#7a3617; color:white;">📅 Free Consultation</a>
+            </div>
+            <div class="exp-timeline" data-aos="fade-left">
+                <h3 style="font-size:1.6rem; margin-bottom: 30px;">Professional Journey</h3>
+                <div class="exp-item"><div class="exp-year">2008-2009</div><div>Junior Advocate - Tis Hazari Courts</div></div>
+                <div class="exp-item"><div class="exp-year">2009-2010</div><div>Associate - Rohini Court</div></div>
+                <div class="exp-item"><div class="exp-year">2010-2011</div><div>Supreme Court Junior</div></div>
+                <div class="exp-item"><div class="exp-year">2011-Present</div><div>Founder, RAM RAGHVENDRA & ASSOCIATES</div></div>
+                <div style="background:white; border-radius:20px; padding:22px; margin-top:25px;">
+                    <h4><i class="fas fa-graduation-cap"></i> Education</h4>
+                    <p>LL.B - Patna University</p>
+                    <p>Bar Enrolment: D-627/2008 | SCBA: 2334/K/1035/2011</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="counter-section">
+    <div class="container counter-grid">
+        <div><h2>500+</h2><p>Cases Won</p></div>
+        <div><h2>18+</h2><p>Years Exp</p></div>
+        <div><h2>1000+</h2><p>Happy Clients</p></div>
+        <div><h2>98%</h2><p>Success Rate</p></div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="container contact-grid">
+        <div class="contact-info-box">
+            <h2 style="font-family: 'Cormorant Garamond'; font-size: 2rem;">RAM RAGHVENDRA & ASSOCIATES</h2>
+            <p style="margin: 15px 0 25px 0;">Have a legal issue? Need expert advice? We're here to help.</p>
+            <p><i class="fas fa-map-marker-alt"></i> <strong>Chamber Address:</strong><br>Chamber No. 906, Rohini District Court, Sector 14, Rohini, Delhi - 110085</p>
+            <p><i class="fas fa-phone-alt"></i> <strong>Call / WhatsApp:</strong><br><strong>+91 9718037056</strong><br><strong>09718037056</strong></p>
+            <p><i class="fas fa-envelope"></i> <strong>Email:</strong><br>ramraghvendrar@gmail.com</p>
+            <hr style="margin: 25px 0; border-color:#3a5a6e;">
+            <iframe src="https://maps.google.com/maps?q=Rohini+Sector+14+Delhi&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="200" style="border-radius:15px; border:0;"></iframe>
+        </div>
+        <div>
+            <form class="contact-form">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone Number">
+                <textarea rows="4" placeholder="Brief about your legal matter..."></textarea>
+                <button class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-grid">
+        <div><h3>RAM RAGHVENDRA & ASSOCIATES</h3><p>Adv. Ram Raghvendra Kumar</p><p>Supreme Court of India</p><p>18+ Years (2008-2026)</p></div>
+        <div><h3>Quick Links</h3><a href="#home">Home</a><br><a href="#judgments">Court Judgments</a><br><a href="#success-cases">Successful Cases</a><br><a href="#practice">Practice Areas</a><br><a href="#about">About</a><br><a href="#contact">Contact</a></div>
+        <div><h3>Contact Info</h3><p><i class="fas fa-phone"></i> +91 9718037056</p><p><i class="fas fa-phone"></i> 09718037056</p><p><i class="fas fa-envelope"></i> ramraghvendrar@gmail.com</p><p><i class="fas fa-map-marker-alt"></i> Chamber 906, Rohini Court, Sector 14, Delhi-110085</p></div>
+    </div>
+    <div class="container" style="text-align:center; border-top:1px solid #1e2e3a; padding-top:25px;">
+        <p>© 2026 RAM RAGHVENDRA & ASSOCIATES | All Rights Reserved</p>
+        <p style="margin-top:10px;">Chamber No. 906, Rohini District Court, Sector 14, Rohini, Delhi - 110085 | +91 9718037056</p>
+    </div>
+</footer>
+
+<a href="https://wa.me/919718037056" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i> Chat with Us</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 800, once: true });
+    
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const mobileNav = document.getElementById('mobileNav');
+    const closeNav = document.getElementById('closeNav');
+    
+    function openMobileNav() {
+        mobileNav.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeMobileNav() {
+        mobileNav.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    hamburgerBtn.addEventListener('click', openMobileNav);
+    closeNav.addEventListener('click', closeMobileNav);
+    
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (href === "#" || href === "") return;
+            const target = document.querySelector(href);
+            if (target) {
+                e.preventDefault();
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                closeMobileNav();
+            }
+        });
+    });
+    
+    function openPDF(pdfPath) {
+        const modal = document.getElementById('pdfModal');
+        const pdfFrame = document.getElementById('pdfFrame');
+        pdfFrame.src = pdfPath;
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+    
+    function closePDF() {
+        const modal = document.getElementById('pdfModal');
+        const pdfFrame = document.getElementById('pdfFrame');
+        pdfFrame.src = '';
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+    
+    window.onclick = function(event) {
+        const modal = document.getElementById('pdfModal');
+        if (event.target === modal) {
+            closePDF();
+        }
+    }
+    
+    window.closePDF = closePDF;
+    window.openPDF = openPDF;
+</script>
+
+</body>
+</html----->
